@@ -14,7 +14,7 @@ const Nba = ({ value }) => {
       </p>
       <div className="nba-images-container">
         <img
-          src="/images/nba-main.png"
+          src="images/nba-main.png"
           className="nba-image1"
           alt="api demo website's main page"
         />
@@ -25,7 +25,7 @@ const Nba = ({ value }) => {
       </p>
       <div className="nba-images-container">
         <img
-          src="/images/nba-player.png"
+          src="images/nba-player.png"
           className="nba-image2"
           alt="nba player's info page"
         />

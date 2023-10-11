@@ -16,7 +16,7 @@ const WorldBankClone = ({ value }) => {
       <p>This project was built using HTML, CSS and Vanilla Javascript.</p>
       <div className="worldbank-clone-images-container">
         <img
-          src="/images/worldbank-main.png"
+          src="images/worldbank-main.png"
           className="worldbank-image1"
           alt="world bank website's main page"
         />
@@ -30,7 +30,7 @@ const WorldBankClone = ({ value }) => {
       </p>
       <div className="worldbank-clone-images-container">
         <img
-          src="/images/worldbank-responsive.png"
+          src="images/worldbank-responsive.png"
           className="worldbank-image2"
           alt="world bank responsive page"
         />

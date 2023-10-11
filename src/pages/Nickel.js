@@ -18,7 +18,7 @@ const Nickel = ({ value }) => {
       </p>
       <div className="nickel-images-container">
         <img
-          src="/images/nickel-main.png"
+          src="images/nickel-main.png"
           className="nickel-image1"
           alt="api demo website's main page"
         />
@@ -30,7 +30,7 @@ const Nickel = ({ value }) => {
 
       <div className="nickel-images-container">
         <img
-          src="/images/nickel-search.png"
+          src="images/nickel-search.png"
           className="nickel-image2"
           alt="nickel player's info page"
         />

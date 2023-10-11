@@ -18,7 +18,7 @@ const Cp24 = ({ value }) => {
 
       <div className="cp24-images-container">
         <img
-          src="/images/cp24-main.png"
+          src="images/cp24-main.png"
           className="cp24-image1"
           alt="cp24 website's main page"
         />

@@ -18,7 +18,7 @@ const Games = ({ value }) => {
       </p>
       <div className="game-images-container">
         <img
-          src="/images/mm-how-to.png"
+          src="images/mm-how-to.png"
           className="game-image1"
           alt="how to play"
         />
@@ -27,11 +27,7 @@ const Games = ({ value }) => {
           Though at the moment it is not coded to be responsive to mobile BUT
           playable.
         </p>
-        <img
-          src="/images/mm-game.png"
-          className="game-image2"
-          alt="game page"
-        />
+        <img src="images/mm-game.png" className="game-image2" alt="game page" />
       </div>
       <p>
         Have fun and test your code-breaking skills in the Mastermind Game! Good
