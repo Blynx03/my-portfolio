@@ -1,0 +1,27 @@
+.article-container {
+  height: 100%;
+  width: 100%;
+}
+.cp24-header {
+  padding: 2%;
+  font-size: 3rem;
+  text-shadow: 1px 1px black, 0 0 5px black;
+  font-weight: 600;
+  text-align: center;
+  color: dodgerblue;
+}
+
+.cp24-images-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 1% 5%;
+}
+
+.cp24-image1 {
+  width: 100%;
+}
+
+h3 {
+  font-weight: 400;
+}

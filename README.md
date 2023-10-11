@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Charlie Chan's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio, where you can learn more about me, explore my projects, view my resume, and get in touch!
 
-## Available Scripts
+![Portfolio Screenshot](/portfolio-main.png)
 
-In the project directory, you can run:
+## About Me
 
-### `npm start`
+I am a Web Developer with a passion for creating beautiful and engaging web experiences. Proficient in HTML, CSS, JavaScript, and React, I'm on a transformative journey to become a full-stack developer. In line with my goals, I'm also exploring Python, SQL, Node.js and Ruby on Rails but may change depending on the technologies used in the company I will work with.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Projects
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Project 1: Apple - Clone
 
-### `npm test`
+![Project Screenshot](/apple-main.png)
+This project is a faithful clone of the Apple website's main page. Its purpose is to showcase the developer's web development skills by replicating the main page's design and functionality. All links and elements on the cloned main page are linked to their corresponding pages on the official Apple website.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Repository]("https://github.com/Blynx03/Apple-clone")
+- [Live Site]("https://blynx03.github.io/Apple-clone/")
 
-### `npm run build`
+### Project 2: World Bank - Clone
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Project Screenshot](/worldbank-main.png)
+This project is a static clone of the layout of the World Bank's main page. It aims to highlight the similarities in layout and structure with the World Bank's main page as of a specific point in time. Please note that the design of the World Bank website frequently changes, so the accuracy of the design may vary with the current website layout.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Repository]("https://github.com/Blynx03/WorldBank-clone")
+- [Live Site]("https://blynx03.github.io/WorldBank-clone/")
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Project 3: Project Name
 
-### `npm run eject`
+![Project Screenshot](/mm-game.png)
+Welcome to the Mastermind Game! This program offers a fun and challenging experience as you attempt to crack the secret code. The game consists of different levels, each with its own set of rules and challenges.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Repository]("https://github.com/Blynx03/MasterMind-v3")
+- [Live Site]("https://blynx03.github.io/MasterMind-v3/")
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Project 4: Project Name
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Project Screenshot](/cp24-main.png)
+This multifunctional dashboard project provides users with a comprehensive platform similar to CP24 news format. This dashboard offers a wide range of features and is designed for desktop use.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [Repository]("https://github.com/Blynx03/react-cp24")
+- [Live Site]("https://blynx03.github.io/react-cp24/")
 
-## Learn More
+### Project 5: Project Name
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Project Screenshot](/nba-main.png)
+This is a simple REST API project that provides information about basketball teams and some of their players. The API allows users to retrieve details about teams, their rosters, and individual player information.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Repository]("https://github.com/Blynx03/API-Demo")
+- [Live Site]("https://blynx03.github.io/API-Demo/")
 
-### Code Splitting
+### Project 6: Project Name
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Project Screenshot](/nickel-main.png)
+15 Nickel Point is an interactive app designed to help individuals with nickel allergies manage their condition. The app provides a comprehensive list of foods and their nickel content, allowing users to track their nickel intake in the form of "Nickel Points." The goal is to help users stay within a daily limit of 15 Nickel Points to minimize nickel exposure.
 
-### Analyzing the Bundle Size
+- [Repository]("https://github.com/Blynx03/nickel-react")
+- [Live Site]("https://blynx03.github.io/nickel-react/")
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Resume
 
-### Making a Progressive Web App
+You can check out my detailed resume for more information about my background and skills. [Resume](/CRC-resume2023.pdf)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contact Me
 
-### Advanced Configuration
+Have a sweet project in mind or just want to say hi? Feel free to send me a message! [Contact](link-to-contact)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This portfolio is proudly created using HTML, CSS, JavaScript, and React.

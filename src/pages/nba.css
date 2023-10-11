@@ -1,0 +1,24 @@
+.article-container {
+  height: 100%;
+  width: 100%;
+}
+.nba-header {
+  padding: 2%;
+  font-size: 3rem;
+  text-shadow: 1px 1px black, 0 0 5px black;
+  font-weight: 600;
+  text-align: center;
+  color: dodgerblue;
+}
+
+.nba-images-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 1% 5%;
+}
+
+.nba-image1,
+.nba-image2 {
+  width: 100%;
+}

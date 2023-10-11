@@ -1,0 +1,146 @@
+.filter-one {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  /* background-image: radial-gradient(
+    circle at 48% 45%,
+    hsla(0, 0%, 0%, 0.3) 0%,
+    hsla(0, 0%, 0%, 0.6) 24%,
+    hsla(0, 0%, 0%, 1) 100%
+  ); */
+  animation: spotlight 47.87s linear infinite;
+}
+
+@keyframes spotlight {
+  0% {
+    background-image: radial-gradient(
+      circle at 48% 45%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  10% {
+    background-image: radial-gradient(
+      circle at 48% 43%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  20% {
+    background-image: radial-gradient(
+      circle at 48% 41%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  30% {
+    background-image: radial-gradient(
+      circle at 48% 39%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  40% {
+    background-image: radial-gradient(
+      circle at 48% 36%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  50% {
+    background-image: radial-gradient(
+      circle at 47% 33%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  60% {
+    background-image: radial-gradient(
+      circle at 46% 30%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  70% {
+    background-image: radial-gradient(
+      circle at 45% 27%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  80% {
+    background-image: radial-gradient(
+      circle at 44% 23%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  85% {
+    background-image: radial-gradient(
+      circle at 43% 18%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  87% {
+    background-image: radial-gradient(
+      circle at 42% 10%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  88% {
+    background-image: radial-gradient(
+      circle at 42% 9%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  89% {
+    background-image: radial-gradient(
+      circle at 42% 7%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  90% {
+    background-image: radial-gradient(
+      circle at 42% 5%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  95% {
+    background-image: radial-gradient(
+      circle at 42% 3%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  100% {
+    background-image: radial-gradient(
+      circle at 42% 2%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+}

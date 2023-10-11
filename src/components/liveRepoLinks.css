@@ -1,0 +1,36 @@
+.article-container {
+  width: 100%;
+}
+
+.live-repo-container {
+  position: sticky;
+  display: flex;
+  bottom: 0;
+  justify-content: space-evenly;
+  width: auto;
+  padding: 3%;
+  background-color: hsla(0, 0%, 0%, 0.75);
+}
+
+.code-site-link {
+  color: hsla(100, 100%, 100%, 0.7);
+  text-shadow: 1px 1px black, 0 0 5px black;
+  padding: 1% 2%;
+  width: 260px;
+  height: 24px;
+  border-radius: 20px;
+  background: hsla(210, 100%, 56%, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--montserrat);
+  font-size: 1.2rem;
+}
+
+.code-site-link:hover {
+  cursor: pointer;
+  background: hsla(100, 100%, 100%, 0.7);
+  text-shadow: none;
+  color: hsla(0, 0%, 0%, 0.85);
+  font-size: 1.25rem;
+}

@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import PlayBackground from "./components/PlayBackground";
+import FilterOne from "./components/FilterOne";
+import FilterTwo from "./components/FilterTwo";
+import Content from "./components/Content";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main-container">
+      <div className="background-container">
+        <PlayBackground />
+        <FilterOne />
+        <FilterTwo />
+        <div className="video-background3"></div>
+        <div className="video-background4"></div>
+      </div>
+      <Content />
     </div>
   );
 }
