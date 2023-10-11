@@ -17,7 +17,7 @@ const AppleClone = ({ value }) => {
 
       <div className="apple-clone-images-container">
         <img
-          src="/images/apple-main.png"
+          src="images/apple-main.png"
           className="apple-image1"
           alt="apple website's main page"
         />
@@ -30,7 +30,7 @@ const AppleClone = ({ value }) => {
       </p>
       <div className="apple-clone-images-container">
         <img
-          src="/images/apple-responsive.png"
+          src="images/apple-responsive.png"
           className="apple-image2"
           alt="apple website's responsive design"
         />
