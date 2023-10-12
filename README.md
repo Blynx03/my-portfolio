@@ -1,4 +1,4 @@
-# Charlie Chan's Portfolio
+# My Portfolio
 
 Welcome to my portfolio, where you can learn more about me, explore my projects, view my resume, and get in touch!
 
@@ -8,12 +8,16 @@ Welcome to my portfolio, where you can learn more about me, explore my projects,
 
 I am a Web Developer with a passion for creating beautiful and engaging web experiences. Proficient in HTML, CSS, JavaScript, and React, I'm on a transformative journey to become a full-stack developer. In line with my goals, I'm also exploring Python, SQL, Node.js and Ruby on Rails but may change depending on the technologies used in the company I will work with.
 
+## Technologies
+
+Every project is constructed utilizing HTML, CSS, JavaScript, React, and a selection of libraries.
+
 ## Projects
 
 ### Project 1: Apple - Clone
 
 ![Project Screenshot](/apple-main.png)
-This project is a faithful clone of the Apple website's main page. Its purpose is to showcase the developer's web development skills by replicating the main page's design and functionality. All links and elements on the cloned main page are linked to their corresponding pages on the official Apple website.
+This project is a faithful clone of the Apple website's main page. Its purpose is to showcase my knowledge in web development skills by replicating the main page's design and functionality. The design is responsive for mobile viewing. All links and elements on the cloned main page are linked to their corresponding pages on the official Apple website.
 
 - [Repository](https://github.com/Blynx03/apple-clone)
 - [Live Site](https://blynx03.github.io/apple-clone/)
@@ -21,7 +25,7 @@ This project is a faithful clone of the Apple website's main page. Its purpose i
 ### Project 2: World Bank - Clone
 
 ![Project Screenshot](/worldbank-main.png)
-This project is a static clone of the layout of the World Bank's main page. It aims to highlight the similarities in layout and structure with the World Bank's main page as of a specific point in time. Please note that the design of the World Bank website frequently changes, so the accuracy of the design may vary with the current website layout.
+This project is a static clone of the layout of the World Bank's main page. It aims to highlight the similarities in layout and structure with the World Bank's main page as of a specific point in time. Please note that the design of the World Bank website frequently changes, so the accuracy of the design may vary with the current website layout. This has been designed to ensure it adapts well for mobile display.
 
 - [Repository](https://github.com/Blynx03/worldbank-clone)
 - [Live Site](https://blynx03.github.io/worldbank-clone/)
@@ -37,7 +41,7 @@ Welcome to the Mastermind Game! This program offers a fun and challenging experi
 ### Project 4: Project Name
 
 ![Project Screenshot](/cp24-main.png)
-This multifunctional dashboard project provides users with a comprehensive platform similar to CP24 news format. This dashboard offers a wide range of features and is designed for desktop use.
+This multifunctional dashboard project provides users with a comprehensive platform similar to CP24 news format. This dashboard offers a wide range of features and is currently designed for desktop use.
 
 - [Repository](https://github.com/Blynx03/react-cp24)
 - [Live Site](https://blynx03.github.io/react-cp24/)
