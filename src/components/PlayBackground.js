@@ -6,7 +6,7 @@ const PlayBackground = () => {
   return (
     <ReactPlayer
       className="actual-video"
-      url="videos/background.mp4"
+      url={`${process.env.PUBLIC_URL}/videos/Background.mp4`}
       playing
       loop={true}
       muted
