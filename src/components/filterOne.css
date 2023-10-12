@@ -11,13 +11,13 @@
     hsla(0, 0%, 0%, 0.6) 24%,
     hsla(0, 0%, 0%, 1) 100%
   ); */
-  animation: spotlight 47.87s linear infinite;
+  animation: spotlight 24s linear infinite;
 }
 
 @keyframes spotlight {
   0% {
     background-image: radial-gradient(
-      circle at 48% 45%,
+      circle at 48% 42%,
       hsla(0, 0%, 0%, 0.3) 0%,
       hsla(0, 0%, 0%, 0.6) 16%,
       hsla(0, 0%, 0%, 1) 100%
@@ -25,7 +25,15 @@
   }
   10% {
     background-image: radial-gradient(
-      circle at 48% 43%,
+      circle at 48% 40.5%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  15% {
+    background-image: radial-gradient(
+      circle at 48% 39%,
       hsla(0, 0%, 0%, 0.3) 0%,
       hsla(0, 0%, 0%, 0.6) 16%,
       hsla(0, 0%, 0%, 1) 100%
@@ -33,7 +41,7 @@
   }
   20% {
     background-image: radial-gradient(
-      circle at 48% 41%,
+      circle at 48% 39%,
       hsla(0, 0%, 0%, 0.3) 0%,
       hsla(0, 0%, 0%, 0.6) 16%,
       hsla(0, 0%, 0%, 1) 100%
@@ -41,7 +49,7 @@
   }
   30% {
     background-image: radial-gradient(
-      circle at 48% 39%,
+      circle at 48% 38%,
       hsla(0, 0%, 0%, 0.3) 0%,
       hsla(0, 0%, 0%, 0.6) 16%,
       hsla(0, 0%, 0%, 1) 100%
@@ -55,9 +63,17 @@
       hsla(0, 0%, 0%, 1) 100%
     );
   }
+  37% {
+    background-image: radial-gradient(
+      circle at 48% 35%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
   40% {
     background-image: radial-gradient(
-      circle at 48% 36%,
+      circle at 48% 33%,
       hsla(0, 0%, 0%, 0.3) 0%,
       hsla(0, 0%, 0%, 0.6) 16%,
       hsla(0, 0%, 0%, 1) 100%
@@ -65,7 +81,7 @@
   }
   50% {
     background-image: radial-gradient(
-      circle at 47% 33%,
+      circle at 48% 31%,
       hsla(0, 0%, 0%, 0.3) 0%,
       hsla(0, 0%, 0%, 0.6) 16%,
       hsla(0, 0%, 0%, 1) 100%
@@ -73,7 +89,7 @@
   }
   60% {
     background-image: radial-gradient(
-      circle at 46% 30%,
+      circle at 47.5% 30%,
       hsla(0, 0%, 0%, 0.3) 0%,
       hsla(0, 0%, 0%, 0.6) 16%,
       hsla(0, 0%, 0%, 1) 100%
@@ -81,7 +97,7 @@
   }
   65% {
     background-image: radial-gradient(
-      circle at 46% 28%,
+      circle at 47% 28%,
       hsla(0, 0%, 0%, 0.3) 0%,
       hsla(0, 0%, 0%, 0.6) 16%,
       hsla(0, 0%, 0%, 1) 100%
@@ -89,7 +105,7 @@
   }
   70% {
     background-image: radial-gradient(
-      circle at 45% 27%,
+      circle at 46.5% 27%,
       hsla(0, 0%, 0%, 0.3) 0%,
       hsla(0, 0%, 0%, 0.6) 16%,
       hsla(0, 0%, 0%, 1) 100%
@@ -97,7 +113,7 @@
   }
   75% {
     background-image: radial-gradient(
-      circle at 45% 26%,
+      circle at 46% 26%,
       hsla(0, 0%, 0%, 0.3) 0%,
       hsla(0, 0%, 0%, 0.6) 16%,
       hsla(0, 0%, 0%, 1) 100%
@@ -105,7 +121,7 @@
   }
   75% {
     background-image: radial-gradient(
-      circle at 45% 25%,
+      circle at 45.5% 25%,
       hsla(0, 0%, 0%, 0.3) 0%,
       hsla(0, 0%, 0%, 0.6) 16%,
       hsla(0, 0%, 0%, 1) 100%
@@ -193,7 +209,15 @@
   }
   95% {
     background-image: radial-gradient(
-      circle at 42% 3%,
+      circle at 41% 2%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  97% {
+    background-image: radial-gradient(
+      circle at 40.5% 1%,
       hsla(0, 0%, 0%, 0.3) 0%,
       hsla(0, 0%, 0%, 0.6) 16%,
       hsla(0, 0%, 0%, 1) 100%
@@ -201,7 +225,7 @@
   }
   100% {
     background-image: radial-gradient(
-      circle at 42% 2%,
+      circle at 40% 0%,
       hsla(0, 0%, 0%, 0.3) 0%,
       hsla(0, 0%, 0%, 0.6) 16%,
       hsla(0, 0%, 0%, 1) 100%
