@@ -8,24 +8,24 @@ const LiveRepoLinks = ({ value }) => {
     let demoUrl = "";
     switch (value) {
       case "apple-clone":
-        repoUrl = "https://github.com/Blynx03/Apple-clone";
-        demoUrl = "https://blynx03.github.io/Apple-clone/";
+        repoUrl = "https://github.com/Blynx03/apple-clone";
+        demoUrl = "https://blynx03.github.io/apple-clone/";
         break;
       case "worldbank-clone":
-        repoUrl = "https://github.com/Blynx03/WorldBank-clone";
-        demoUrl = "https://blynx03.github.io/WorldBank-clone/";
+        repoUrl = "https://github.com/Blynx03/worldBank-clone";
+        demoUrl = "https://blynx03.github.io/worldbank-clone/";
         break;
       case "game":
-        repoUrl = "https://github.com/Blynx03/MasterMind-v3";
-        demoUrl = "https://blynx03.github.io/MasterMind-v3/";
+        repoUrl = "https://github.com/Blynx03/mastermind-v3";
+        demoUrl = "https://blynx03.github.io/mastermind-v3/";
         break;
       case "cp24":
         repoUrl = "https://github.com/Blynx03/react-cp24";
         demoUrl = "https://blynx03.github.io/react-cp24/";
         break;
       case "nba":
-        repoUrl = "https://github.com/Blynx03/API-Demo";
-        demoUrl = "https://blynx03.github.io/API-Demo/";
+        repoUrl = "https://github.com/Blynx03/api-demo";
+        demoUrl = "https://blynx03.github.io/api-demo/";
         break;
       case "nickel":
         repoUrl = "https://github.com/Blynx03/nickel-react";
