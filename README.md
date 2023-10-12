@@ -64,11 +64,13 @@ This is a simple REST API project that provides information about basketball tea
 
 ## Resume
 
-You can check out my detailed resume for more information about my background and skills. [Resume](/CRC-resume2023.pdf)
+You can check out my detailed resume for more information about my background and skills.
+[Resume](/CRC-resume2023.pdf)
 
 ## Contact Me
 
-Have a sweet project in mind or just want to say hi? Feel free to send me a message! [Contact](https://blynx03.github.io/my-portfolio/)
+Have a sweet project in mind or just want to say hi? Feel free to send me a message!
+[Live Demo - Portfolio](https://blynx03.github.io/my-portfolio/)
 
 ---
 
