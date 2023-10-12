@@ -7,7 +7,7 @@ const About = () => {
       <div className="about-container">
         <h2 className="about-header">About Me</h2>
         <p className="about-paragraph">
-          Greetings! I'm Charlie Chan, a passionate individual on a
+          Hi there! My name is Charlie Chan, a passionate individual on a
           transformative journey from my previous role as a seasoned Senior
           Quotation Analyst to my current pursuit as a Web, JavaScript, and
           React Developer.
@@ -66,9 +66,7 @@ const About = () => {
           the ever-evolving web development landscape.
         </p>
 
-        <p className="about-paragraph">
-          Let's build something remarkable together!
-        </p>
+        <p className="last-note">Let's build something remarkable together!</p>
       </div>
     </>
   );
