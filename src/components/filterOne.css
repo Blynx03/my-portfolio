@@ -47,6 +47,14 @@
       hsla(0, 0%, 0%, 1) 100%
     );
   }
+  35% {
+    background-image: radial-gradient(
+      circle at 48% 37%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
   40% {
     background-image: radial-gradient(
       circle at 48% 36%,
@@ -71,6 +79,14 @@
       hsla(0, 0%, 0%, 1) 100%
     );
   }
+  65% {
+    background-image: radial-gradient(
+      circle at 46% 28%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
   70% {
     background-image: radial-gradient(
       circle at 45% 27%,
@@ -79,9 +95,49 @@
       hsla(0, 0%, 0%, 1) 100%
     );
   }
+  75% {
+    background-image: radial-gradient(
+      circle at 45% 26%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  75% {
+    background-image: radial-gradient(
+      circle at 45% 25%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  78% {
+    background-image: radial-gradient(
+      circle at 45% 24%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
   80% {
     background-image: radial-gradient(
       circle at 44% 23%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  83% {
+    background-image: radial-gradient(
+      circle at 44% 20%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  84% {
+    background-image: radial-gradient(
+      circle at 44% 19%,
       hsla(0, 0%, 0%, 0.3) 0%,
       hsla(0, 0%, 0%, 0.6) 16%,
       hsla(0, 0%, 0%, 1) 100%
@@ -122,6 +178,14 @@
   90% {
     background-image: radial-gradient(
       circle at 42% 5%,
+      hsla(0, 0%, 0%, 0.3) 0%,
+      hsla(0, 0%, 0%, 0.6) 16%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+  }
+  93% {
+    background-image: radial-gradient(
+      circle at 42% 4%,
       hsla(0, 0%, 0%, 0.3) 0%,
       hsla(0, 0%, 0%, 0.6) 16%,
       hsla(0, 0%, 0%, 1) 100%
