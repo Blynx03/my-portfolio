@@ -15,24 +15,24 @@ I am a Web Developer with a passion for creating beautiful and engaging web expe
 ![Project Screenshot](/apple-main.png)
 This project is a faithful clone of the Apple website's main page. Its purpose is to showcase the developer's web development skills by replicating the main page's design and functionality. All links and elements on the cloned main page are linked to their corresponding pages on the official Apple website.
 
-- [Repository](https://github.com/Blynx03/Apple-clone)
-- [Live Site](https://blynx03.github.io/Apple-clone/)
+- [Repository](https://github.com/Blynx03/apple-clone)
+- [Live Site](https://blynx03.github.io/apple-clone/)
 
 ### Project 2: World Bank - Clone
 
 ![Project Screenshot](/worldbank-main.png)
 This project is a static clone of the layout of the World Bank's main page. It aims to highlight the similarities in layout and structure with the World Bank's main page as of a specific point in time. Please note that the design of the World Bank website frequently changes, so the accuracy of the design may vary with the current website layout.
 
-- [Repository](https://github.com/Blynx03/WorldBank-clone)
-- [Live Site](https://blynx03.github.io/WorldBank-clone/)
+- [Repository](https://github.com/Blynx03/worldbank-clone)
+- [Live Site](https://blynx03.github.io/worldbank-clone/)
 
 ### Project 3: Project Name
 
 ![Project Screenshot](/mm-game.png)
 Welcome to the Mastermind Game! This program offers a fun and challenging experience as you attempt to crack the secret code. The game consists of different levels, each with its own set of rules and challenges.
 
-- [Repository](https://github.com/Blynx03/MasterMind-v3)
-- [Live Site](https://blynx03.github.io/MasterMind-v3/)
+- [Repository](https://github.com/Blynx03/mastermind-v3)
+- [Live Site](https://blynx03.github.io/mastermind-v3/)
 
 ### Project 4: Project Name
 
@@ -47,8 +47,8 @@ This multifunctional dashboard project provides users with a comprehensive platf
 ![Project Screenshot](/nba-main.png)
 This is a simple REST API project that provides information about basketball teams and some of their players. The API allows users to retrieve details about teams, their rosters, and individual player information.
 
-- [Repository](https://github.com/Blynx03/API-Demo)
-- [Live Site](https://blynx03.github.io/API-Demo/)
+- [Repository](https://github.com/Blynx03/api-demo)
+- [Live Site](https://blynx03.github.io/api-demo/)
 
 ### Project 6: Project Name
 
