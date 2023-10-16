@@ -91,6 +91,7 @@
   overflow-y: scroll;
   width: 60vw;
   height: 85vh;
+  background-color: hsla(0, 0%, 0%, 0.4);
 }
 
 .bottom-right-container {
