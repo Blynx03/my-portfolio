@@ -43,7 +43,7 @@
 
 label {
   width: 85%;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.1rem;
   padding: 0 4% 0.5% 5%;
   color: dodgerblue;
@@ -81,13 +81,13 @@ input {
 }
 
 .contact-info-container {
-  width: 40%;
+  width: 90%;
   display: flex;
   justify-content: space-evenly;
   background: hsla(0, 0%, 0%, 0.5);
   padding: 1%;
   font-size: 1.1rem;
-  font-weight: 300;
+  font-weight: 400;
   position: absolute;
   bottom: 5%;
 }
@@ -132,7 +132,7 @@ input {
     width: 100%;
     padding: 2% 1%;
     font-size: 0.9rem;
-    font-weight: 300;
+    font-weight: 400;
     bottom: 0;
     display: grid;
     grid-template-areas:
