@@ -30,7 +30,7 @@ This project is a static clone of the layout of the World Bank's main page. It a
 - [Repository](https://github.com/Blynx03/worldbank-clone)
 - [Live Site](https://blynx03.github.io/worldbank-clone/)
 
-### Project 3: Project Name
+### Project 3: Master Mind Game
 
 ![Project Screenshot](/mm-game.png)
 Welcome to the Mastermind Game! This program offers a fun and challenging experience as you attempt to crack the secret code. The game consists of different levels, each with its own set of rules and challenges.
@@ -38,7 +38,7 @@ Welcome to the Mastermind Game! This program offers a fun and challenging experi
 - [Repository](https://github.com/Blynx03/mastermind-v3)
 - [Live Site](https://blynx03.github.io/mastermind-v3/)
 
-### Project 4: Project Name
+### Project 4: Multifunctional Dashboard - CP24 format
 
 ![Project Screenshot](/cp24-main.png)
 This multifunctional dashboard project provides users with a comprehensive platform similar to CP24 news format. This dashboard offers a wide range of features and is currently designed for desktop use.
@@ -46,7 +46,7 @@ This multifunctional dashboard project provides users with a comprehensive platf
 - [Repository](https://github.com/Blynx03/react-cp24)
 - [Live Site](https://blynx03.github.io/react-cp24/)
 
-### Project 5: Project Name
+### Project 5: REST API Demo
 
 ![Project Screenshot](/nba-main.png)
 This is a simple REST API project that provides information about basketball teams and some of their players. The API allows users to retrieve details about teams, their rosters, and individual player information.
@@ -54,7 +54,7 @@ This is a simple REST API project that provides information about basketball tea
 - [Repository](https://github.com/Blynx03/api-demo)
 - [Live Site](https://blynx03.github.io/api-demo/)
 
-### Project 6: Project Name
+### Project 6: Allergy Monitoring App
 
 ![Project Screenshot](/nickel-main.png)
 15 Nickel Point is an interactive app designed to help individuals with nickel allergies manage their condition. The app provides a comprehensive list of foods and their nickel content, allowing users to track their nickel intake in the form of "Nickel Points." The goal is to help users stay within a daily limit of 15 Nickel Points to minimize nickel exposure.

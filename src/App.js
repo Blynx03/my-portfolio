@@ -11,8 +11,6 @@ function App() {
         <PlayBackground />
         <FilterOne />
         <FilterTwo />
-        <div className="video-background3"></div>
-        <div className="video-background4"></div>
       </div>
       <Content />
     </div>

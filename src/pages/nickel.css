@@ -27,3 +27,8 @@ li {
   font-weight: 300;
   font-size: 1.3rem;
 }
+@media screen and (max-width: 525px) {
+  .nickel-header {
+    font-size: 1.9rem;
+  }
+}

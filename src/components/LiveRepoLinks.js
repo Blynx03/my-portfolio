@@ -55,14 +55,14 @@ const LiveRepoLinks = ({ value }) => {
   return (
     <div className="live-repo-container">
       <div
-        className="game-site-link code-site-link"
+        className="site-link code-site-link"
         onClick={(e) => handleClick(e)}
         data-value="repo"
       >
         GitHub Repository
       </div>
       <div
-        className="game-code-link code-site-link"
+        className="code-link code-site-link"
         onClick={(e) => handleClick(e)}
         data-value="demo"
       >

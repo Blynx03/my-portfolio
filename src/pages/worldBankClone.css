@@ -26,3 +26,9 @@
 .worldbank-image2 {
   width: 50%;
 }
+
+@media screen and (max-width: 525px) {
+  .worldbank-clone-header {
+    font-size: 2.4rem;
+  }
+}

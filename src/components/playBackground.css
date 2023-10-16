@@ -5,5 +5,18 @@
   transform: scale(1.8);
   top: 0;
   left: 0;
-  filter: hue-rotate(180deg);
+  /* filter: hue-rotate(180deg); */
+}
+
+@media screen and (max-width: 525px) {
+  .video-wrapper {
+    position: fixed;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
+
+  .actual-video {
+    transform: scale(3.2);
+  }
 }

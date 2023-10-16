@@ -1,23 +1,31 @@
-import React, { useState } from "react";
-import "./content.css";
+import React, { useEffect, useState } from "react";
 import DefaultMiddleContent from "./DefaultMiddleContent";
-import About from "../pages/About";
 import Games from "../pages/Games";
 import AppleClone from "../pages/AppleClone";
 import WorldBankClone from "../pages/WorldBankClone";
 import Cp24 from "../pages/Cp24";
 import Nba from "../pages/Nba";
 import Nickel from "../pages/Nickel";
+import About from "../pages/About";
 import Resume from "../pages/Resume";
 import Contact from "../pages/Contact";
+import "./content.css";
 
 const Content = () => {
-  //   let [hoveredLink, setHoveredLink] = useState("");
   let [linkPreview, setLinkPreview] = useState(<DefaultMiddleContent />);
 
   const getMidContent = (e) => {
+    const project = document.querySelector(".projects-container");
+    const midContainer = document.querySelector(".middle-container");
+    const menuContainer = document.querySelector(".menu-container");
+
     const value = e.target.getAttribute("data-value");
-    // setHoveredLink(value);
+
+    if (window.innerWidth <= 550) {
+      project.style.visibility = "hidden";
+      menuContainer.style.visibility = "hidden";
+      midContainer.style.visibility = "visible";
+    }
     setLinkPreview(choice(value));
   };
 
@@ -50,7 +58,34 @@ const Content = () => {
         return <DefaultMiddleContent />;
       default:
         return <DefaultMiddleContent />;
-        break;
+    }
+  }
+
+  function handleClick(value) {
+    console.log(value);
+    const project = document.querySelector(".projects-container");
+    const midContainer = document.querySelector(".middle-container");
+    const menuContainer = document.querySelector(".menu-container");
+    if (window.innerWidth <= 550) {
+      midContainer.style.visibility = "hidden";
+      switch (value) {
+        case "projects":
+          project.style.visibility =
+            project.style.visibility === "visible" ? "hidden" : "visible";
+          menuContainer.style.visibility = "hidden";
+          break;
+        case "menu":
+          menuContainer.style.visibility =
+            menuContainer.style.visibility === "visible" ? "hidden" : "visible";
+          project.style.visibility = "hidden";
+          break;
+        default:
+          return;
+      }
+    } else if (window.innerWidth >= 551) {
+      project.style.visibility = "visible";
+      midContainer.style.visibility = "visible";
+      menuContainer.style.visibility = "visible";
     }
   }
 
@@ -58,13 +93,20 @@ const Content = () => {
     <div className="content-container">
       <div
         className="top-left-container"
-        onClick={getMidContent}
+        // onClick={getMidContent}
         data-value="default"
       >
-        <div className="my-projects">Projects</div>
+        <div
+          className="my-projects"
+          onClick={(e) => handleClick(e.target.getAttribute("data-value"))}
+          data-value="projects"
+        >
+          PROJECTS
+        </div>
+
         <div
           className="projects-container"
-          onClick={getMidContent}
+          // onClick={getMidContent}
           data-value="default"
         >
           <div className="projects">
@@ -139,27 +181,36 @@ const Content = () => {
       <div className="middle-container">{linkPreview}</div>
       <div
         className="bottom-right-container"
-        onClick={getMidContent}
+        // onClick={getMidContent}
         data-value="default"
       >
-        <div className="home" onClick={getMidContent} data-value="home">
-          Home
-        </div>
-        <div className="about" onClick={getMidContent} data-value="about">
-          About Me
-        </div>
-        <div
-          className="my-repositories"
-          onClick={getMidContent}
-          data-value="repositories"
+        <span
+          className="material-symbols-outlined"
+          onClick={(e) => handleClick(e.target.getAttribute("data-value"))}
+          data-value="menu"
         >
-          Repositories
-        </div>
-        <div className="resume" onClick={getMidContent} data-value="resume">
-          Resume
-        </div>
-        <div className="contact" onClick={getMidContent} data-value="contact">
-          Contact
+          menu
+        </span>
+        <div className="menu-container">
+          <div className="home" onClick={getMidContent} data-value="home">
+            Home
+          </div>
+          <div className="about" onClick={getMidContent} data-value="about">
+            About Me
+          </div>
+          <div
+            className="my-repositories"
+            onClick={getMidContent}
+            data-value="repositories"
+          >
+            Repositories
+          </div>
+          <div className="resume" onClick={getMidContent} data-value="resume">
+            Resume
+          </div>
+          <div className="contact" onClick={getMidContent} data-value="contact">
+            Contact
+          </div>
         </div>
       </div>
     </div>

@@ -34,3 +34,28 @@
   color: hsla(0, 0%, 0%, 0.85);
   font-size: 1.25rem;
 }
+
+@media screen and (max-width: 525px) {
+  .live-repo-container {
+    position: sticky;
+    display: flex;
+    bottom: -40px;
+    justify-content: space-evenly;
+    width: auto;
+    background-color: hsla(0, 0%, 0%, 0.4);
+    gap: 10px;
+  }
+
+  .code-site-link {
+    color: hsla(100, 100%, 100%, 0.7);
+    text-shadow: 1px 1px black, 0 0 5px black;
+    padding: 1% 2%;
+    border-radius: 20px;
+    background: hsla(210, 100%, 56%, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--roboto);
+    font-size: 0.9rem;
+  }
+}

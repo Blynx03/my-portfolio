@@ -18,6 +18,7 @@ body {
   position: relative;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .background-container {
@@ -28,5 +29,18 @@ body {
 @media screen and (max-width: 1670px) {
   .background-container {
     padding-top: 58%;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .main-container {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
   }
 }

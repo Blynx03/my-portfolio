@@ -102,3 +102,64 @@ input {
 .contact-tel {
   color: dodgerblue;
 }
+
+@media screen and (max-width: 525px) {
+  .contact-container {
+    padding: 2%;
+    width: 90vw;
+  }
+
+  .contact-header {
+    font-size: 2.6rem;
+  }
+
+  .sweet-note {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+
+  .send-btn {
+    margin-top: 20px;
+    padding: 2.6% 9%;
+    font-size: 0.9rem;
+  }
+
+  .contact-info-container {
+    width: 100%;
+    padding: 2% 1%;
+    font-size: 0.9rem;
+    font-weight: 300;
+    bottom: 3%;
+    display: grid;
+    grid-template-areas:
+      "contact contact"
+      "email tel";
+  }
+
+  .email-container,
+  .tel-container {
+    display: flex;
+    gap: 10px;
+  }
+
+  .contact-info {
+    grid-area: contact;
+  }
+
+  .email-container {
+    grid-area: email;
+  }
+
+  .tel-container {
+    grid-area: tel;
+  }
+
+  .contact-email,
+  .contact-tel {
+    color: dodgerblue;
+  }
+}

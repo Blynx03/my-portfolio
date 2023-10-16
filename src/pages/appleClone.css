@@ -25,3 +25,9 @@
 .apple-image2 {
   width: 50%;
 }
+
+@media screen and (max-width: 525px) {
+  .apple-clone-header {
+    font-size: 2.4rem;
+  }
+}
