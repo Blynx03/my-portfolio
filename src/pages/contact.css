@@ -133,7 +133,7 @@ input {
     padding: 2% 1%;
     font-size: 0.9rem;
     font-weight: 300;
-    bottom: 3%;
+    bottom: 0;
     display: grid;
     grid-template-areas:
       "contact contact"

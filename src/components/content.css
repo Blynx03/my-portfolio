@@ -79,19 +79,24 @@
 }
 
 .sub {
-  font-weight: 300;
+  font-weight: 400;
   cursor: pointer;
   text-align: center;
   list-style: none;
 }
 
 .middle-container {
+  position: relative;
   grid-area: mid;
   color: white;
   overflow-y: scroll;
   width: 60vw;
   height: 85vh;
   background-color: hsla(0, 0%, 0%, 0.4);
+}
+
+.middle-container > p {
+  font-weight: 400;
 }
 
 .bottom-right-container {

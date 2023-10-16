@@ -31,4 +31,10 @@
   .worldbank-clone-header {
     font-size: 2.4rem;
   }
+
+  p {
+    color: white;
+    font-family: var(--roboto);
+    font-weight: 400;
+  }
 }
