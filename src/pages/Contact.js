@@ -95,7 +95,7 @@ const Contact = () => {
         </button>
       </form>
       <div className="contact-info-container">
-        <div className="contact-info">Contact info:</div>
+        <div className="contact-info">CONTACT INFO:</div>
         <div className="email-container">
           <div className="contact-email">Email: </div>
           <span>cchan_03@yahoo.ca</span>

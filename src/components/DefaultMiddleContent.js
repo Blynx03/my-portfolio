@@ -7,7 +7,7 @@ const DefaultMiddleContent = () => {
       <div className="greeting">Hi! I'm</div>
       <div className="name">CHARLIE</div>
       <div className="my-description">
-        A web/Javascript/React developer. I shape the online web with lines of
+        A Web/Javascript/React developer. I shape the online web with lines of
         code.
       </div>
     </div>
