@@ -33,7 +33,7 @@ This project is a static clone of the layout of the World Bank's main page. It a
 ### Project 3: Master Mind Game
 
 ![Project Screenshot](/mm-game.png)
-Welcome to the Mastermind Game! This program offers a fun and challenging experience as you attempt to crack the secret code. The game consists of different levels, each with its own set of rules and challenges.
+Welcome to the Mastermind Game! This program offers a fun and challenging experience as you attempt to crack the secret code. The game consists of different levels, each with its own set of rules and challenges. Built using HTML, CSS and vanilla Javascript. This is also designed to be mobile responsive, both portrait and landscape. Give it a try, and you'll be both entertained and faced with an exciting challenge!
 
 - [Repository](https://github.com/Blynx03/mastermind-v3)
 - [Live Site](https://blynx03.github.io/mastermind-v3/)

@@ -24,8 +24,8 @@ const Games = ({ value }) => {
         />
         <p>
           This project was built using HTML, CSS and plain (vanilla) Javascript.
-          Though at the moment it is not coded to be responsive to mobile BUT
-          playable.
+          It is also made responsive for mobile experience, both portrait and
+          landscape.
         </p>
         <img src="images/mm-game.png" className="game-image2" alt="game page" />
       </div>
