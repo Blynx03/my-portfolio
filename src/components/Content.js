@@ -102,6 +102,7 @@ const Content = () => {
           data-value="projects"
         >
           PROJECTS
+          <span class="material-symbols-outlined">expand_more</span>
         </div>
 
         <div
@@ -178,6 +179,7 @@ const Content = () => {
           </div>
         </div>
       </div>
+
       <div className="middle-container">{linkPreview}</div>
       <div
         className="bottom-right-container"
