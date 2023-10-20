@@ -130,6 +130,7 @@
   .content-container {
     width: 100vw;
     height: 100vh;
+    height: 100svh;
     padding: 0;
     display: grid;
     font-family: var(--lato);
@@ -151,7 +152,10 @@
   }
 
   .top-left-container {
-    grid-area: tl;
+    /* grid-area: tl; */
+    position: sticky;
+    top: 0;
+    left: 0;
     padding: 0;
     border: none;
     background-color: hsla(0, 0%, 0%, 0.7);
@@ -166,13 +170,17 @@
     letter-spacing: 1.5px;
     font-size: 6vw;
     color: dodgerblue;
-    margin-top: 7%;
+    margin-top: 6%;
   }
 
   .material-symbols-outlined {
-    margin-left: 6px;
-    margin-top: 5px;
     font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  }
+
+  .down-arrow {
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size: 1.6rem;
   }
 
   .projects-container {
@@ -204,7 +212,10 @@
   }
 
   .bottom-right-container {
-    position: relative;
+    position: sticky;
+    top: 0;
+    right: 0;
+    /* position: relative; */
     grid-area: br;
     background: hsla(0, 0%, 0%, 0.7);
     border: none;
@@ -213,6 +224,7 @@
 
   .material-symbols-outlined {
     visibility: visible;
+    font-size: 1.8rem;
     font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
   }
 

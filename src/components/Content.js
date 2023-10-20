@@ -102,7 +102,9 @@ const Content = () => {
           data-value="projects"
         >
           PROJECTS
-          <span class="material-symbols-outlined">expand_more</span>
+          <span className="material-symbols-outlined down-arrow">
+            expand_more
+          </span>
         </div>
 
         <div
