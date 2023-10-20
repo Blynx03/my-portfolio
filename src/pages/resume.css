@@ -14,15 +14,14 @@
   display: flex;
   justify-content: center;
   bottom: 0;
-  width: auto;
-  padding: 3%;
+  padding: 6%;
   background-color: hsla(0, 0%, 0%, 0.5);
 }
 
 .resume-link {
   color: hsla(100, 100%, 100%, 0.7);
-  padding: 1% 2%;
-  width: 260px;
+  padding: 2% 4%;
+  width: 180px;
   height: 24px;
   border-radius: 20px;
   background: hsla(210, 100%, 56%, 0.7);
