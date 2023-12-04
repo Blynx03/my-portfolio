@@ -7,6 +7,10 @@ const LiveRepoLinks = ({ value }) => {
     let repoUrl = "";
     let demoUrl = "";
     switch (value) {
+      case "silya":
+        repoUrl = "https://github.com/Blynx03/silya";
+        demoUrl = "https://blynx03.github.io/silya/";
+        break;
       case "apple-clone":
         repoUrl = "https://github.com/Blynx03/apple-clone";
         demoUrl = "https://blynx03.github.io/apple-clone/";

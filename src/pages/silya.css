@@ -1,0 +1,11 @@
+.article-container {
+  padding: 2%;
+}
+
+.silya-header {
+  font-size: 3rem;
+  color: dodgerblue;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 1px 1px black, 0 0 5px black;
+}

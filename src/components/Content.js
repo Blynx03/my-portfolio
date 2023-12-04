@@ -9,6 +9,7 @@ import Nickel from "../pages/Nickel";
 import About from "../pages/About";
 import Resume from "../pages/Resume";
 import Contact from "../pages/Contact";
+import Silya from "../pages/Silya";
 import "./content.css";
 
 const Content = () => {
@@ -33,6 +34,8 @@ const Content = () => {
     switch (value) {
       case "about":
         return <About />;
+      case "silya":
+        return <Silya value={value} />;
       case "game":
         return <Games value={value} />;
       case "apple-clone":
@@ -112,6 +115,19 @@ const Content = () => {
           // onClick={getMidContent}
           data-value="default"
         >
+          <div className="projects">
+            E-Commerce
+            <ul className="sub-container">
+              <li
+                className="silya-e-commerce sub"
+                onClick={getMidContent}
+                data-value="silya"
+              >
+                Silya - All About Chairs
+              </li>
+            </ul>
+          </div>
+
           <div className="projects">
             Cloned Sites
             <ul className="sub-container">
