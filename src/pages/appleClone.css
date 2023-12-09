@@ -1,7 +1,10 @@
 .article-container {
   height: 90%;
   width: 100%;
+  z-index: 10;
+  padding-bottom: 30%;
 }
+
 .apple-clone-header {
   padding: 2%;
   font-size: clamp(1.6rem, 4.5vw, 3.8rem);
@@ -20,15 +23,17 @@
 
 .apple-image1 {
   width: 100%;
+  font-size: clamp(0.9rem, 1.7vw, 1rem);
 }
 
 .apple-image2 {
   width: 50%;
+  font-size: clamp(0.9rem, 1.7vw, 1rem);
 }
 
-@media screen and (max-width: 525px) {
+@media (max-width: 525px) {
   .apple-clone-header {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   p {

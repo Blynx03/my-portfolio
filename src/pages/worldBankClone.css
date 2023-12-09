@@ -1,6 +1,8 @@
 .article-container {
   height: 100%;
   width: 100%;
+  z-index: 10;
+  padding-bottom: 30%;
 }
 
 .worldbank-clone-header {
@@ -21,10 +23,12 @@
 
 .worldbank-image1 {
   width: 100%;
+  font-size: clamp(0.9rem, 1.7vw, 1rem);
 }
 
 .worldbank-image2 {
   width: 50%;
+  font-size: clamp(0.9rem, 1.7vw, 1rem);
 }
 
 @media (max-width: 850px) {

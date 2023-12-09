@@ -1,7 +1,10 @@
 .article-container {
   height: 100%;
   width: 100%;
+  z-index: 10;
+  padding-bottom: 30%;
 }
+
 .nba-header {
   padding: 2%;
   font-size: clamp(1.6rem, 4.5vw, 3.8rem);
@@ -21,9 +24,10 @@
 .nba-image1,
 .nba-image2 {
   width: 100%;
+  font-size: clamp(0.9rem, 1.7vw, 1rem);
 }
 
-@media screen and (max-width: 525px) {
+@media (max-width: 525px) {
   .nba-header {
     font-size: 2rem;
   }
