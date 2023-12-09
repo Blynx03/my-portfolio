@@ -1,0 +1,604 @@
+@keyframes go-crazy1 {
+  0%,
+  10% {
+    font-weight: 300;
+    color: tomato;
+    transform: skew(0deg, 0deg);
+  }
+  30%,
+  70% {
+    color: dodgerblue;
+    font-weight: 800;
+    transform: skew(180deg, 90deg);
+  }
+
+  90%,
+  100% {
+    font-weight: 300;
+    color: tomato;
+    transform: skew(0deg, 0deg);
+  }
+}
+
+@keyframes go-crazy2 {
+  0%,
+  10% {
+    color: tomato;
+    transform: scale(1, 1);
+    font-weight: 300;
+  }
+  30%,
+  70% {
+    color: white;
+    font-weight: 900;
+    transform: scale(0, 1);
+  }
+  90%,
+  100% {
+    font-weight: 300;
+    color: tomato;
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes go-crazy3 {
+  0%,
+  10% {
+    color: tomato;
+    z-index: 5;
+    right: 0;
+    top: 0;
+  }
+  25% {
+    right: 100px;
+    top: -60px;
+    color: #fff;
+  }
+
+  40%,
+  60% {
+    color: #fff;
+    text-shadow: 0 0 100px #fff;
+  }
+  30%,
+  50%,
+  70% {
+    right: 26%;
+    top: -100px;
+    z-index: 10;
+    color: tomato;
+    font-weight: 400;
+    transform: scale(1, 1);
+    text-shadow: 0 0 60px tomato;
+  }
+
+  90%,
+  100% {
+    top: 0;
+    right: 0;
+    font-weight: 300;
+    color: tomato;
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes go-crazy4 {
+  0%,
+  10% {
+    right: 0;
+    top: 0;
+  }
+
+  30%,
+  70% {
+    right: -13%;
+    top: 50px;
+  }
+  90%,
+  100% {
+    right: 0;
+    top: 0;
+  }
+}
+
+@keyframes go-crazy5 {
+  0%,
+  10% {
+    right: 0;
+    top: 0;
+  }
+
+  30%,
+  70% {
+    right: 16%;
+    top: 50px;
+  }
+  90%,
+  100% {
+    right: 0;
+    top: 0;
+  }
+}
+
+@keyframes go-crazy6 {
+  0%,
+  10% {
+    top: 0;
+  }
+
+  30%,
+  70% {
+    top: 50px;
+  }
+  90%,
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 4px white;
+  }
+  50% {
+    text-shadow: 0 0 20px white;
+  }
+  100% {
+    text-shadow: 0 0 4px white;
+  }
+}
+
+@keyframes spotlight {
+  0% {
+    transform: scale(1);
+    background-color: darkturquoise;
+    filter: blur(60px);
+  }
+
+  25%,
+  75% {
+    transform: scale(0.8);
+    background-color: white;
+    filter: blur(100px);
+  }
+  50% {
+    transform: scale(1.4);
+    background-color: white;
+    filter: blur(30px);
+  }
+  100% {
+    transform: scale(1);
+    background-color: darkturquoise;
+    filter: blur(60px);
+  }
+}
+/* for filterOne */
+
+@keyframes pixel0 {
+  0% {
+    margin-left: 0;
+    margin-top: 0;
+    transform: scale(1);
+    box-shadow: 0 0 20px black;
+  }
+  25% {
+    color: yellow;
+    transform: scale(8);
+  }
+  50% {
+    color: lightseagreen;
+    transform: scale(1);
+    box-shadow: 0 0 40px white;
+  }
+  75% {
+    transform: scale(12);
+    color: lightsalmon;
+  }
+  100% {
+    color: purple;
+    transform: scale(1);
+    margin-left: 75px;
+    margin-top: -120px;
+    box-shadow: 0 0 100px black;
+  }
+}
+
+@keyframes pixel1 {
+  0% {
+    transform: scale(5);
+  }
+  25% {
+    color: gold;
+  }
+  50% {
+    color: darkorchid;
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes pixel2 {
+  0% {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  25% {
+    color: green;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: blue;
+  }
+  100% {
+    color: yellow;
+    transform: scale(4);
+    margin-left: 100px;
+    margin-top: 200px;
+  }
+}
+
+@keyframes pixel3 {
+  0% {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  25% {
+    color: gray;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    transform: scale(10);
+    color: lightseagreen;
+  }
+  100% {
+    color: red;
+    transform: scale(1);
+    margin-left: -100px;
+    margin-top: -150px;
+  }
+}
+
+@keyframes pixel4 {
+  0% {
+    margin-left: 0;
+    margin-top: 0;
+    transform: scale(1);
+  }
+  25% {
+    color: yellow;
+    transform: scale(8);
+  }
+  50% {
+    color: lightseagreen;
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(12);
+    color: limegreen;
+  }
+  100% {
+    color: white;
+    transform: scale(1);
+    margin-left: -110px;
+    margin-top: 140px;
+  }
+}
+
+@keyframes pixel5 {
+  0% {
+    margin-left: 0;
+    margin-top: 0;
+    transform: scale(1);
+  }
+  25% {
+    color: aqua;
+    transform: scale(8);
+  }
+  50% {
+    color: dodgerblue;
+    transform: scale(5);
+  }
+  75% {
+    transform: scale(12);
+    color: burlywood;
+  }
+  100% {
+    color: yellow;
+    transform: scale(0);
+    margin-left: 45px;
+    margin-top: -190px;
+  }
+}
+
+@keyframes pixel6 {
+  0% {
+    margin-left: 0;
+    margin-top: 0;
+    transform: scale(10);
+  }
+  25% {
+    color: aqua;
+    transform: scale(1);
+  }
+  50% {
+    color: dodgerblue;
+    transform: scale(6);
+  }
+  75% {
+    transform: scale(12);
+    color: burlywood;
+  }
+  100% {
+    color: yellow;
+    transform: scale(0);
+    margin-left: 225px;
+    margin-top: 290px;
+  }
+}
+
+@keyframes pixel6 {
+  0% {
+    margin-left: 0;
+    margin-top: 0;
+    transform: scale(1);
+  }
+  25% {
+    color: chartreuse;
+    transform: scale(3);
+  }
+  50% {
+    color: cyan;
+    transform: scale(9);
+    margin-left: 325px;
+    margin-top: 190px;
+  }
+  75% {
+    transform: scale(3);
+    color: yellowgreen;
+  }
+  100% {
+    color: azure;
+    transform: scale(7);
+    margin-left: -225px;
+    margin-top: 135px;
+  }
+}
+
+@keyframes pixel7 {
+  0% {
+    margin-left: 0;
+    margin-top: 0;
+    transform: scale(1);
+  }
+  25% {
+    color: darkorange;
+    transform: scale(3);
+  }
+  50% {
+    color: white;
+    transform: scale(9);
+    margin-left: 115px;
+    margin-top: -220px;
+  }
+  75% {
+    transform: scale(3);
+    color: rebeccapurple;
+  }
+  100% {
+    color: bisque;
+    transform: scale(7);
+    margin-left: -275px;
+    margin-top: -115px;
+  }
+}
+
+@keyframes pixel8 {
+  0% {
+    margin-left: 0;
+    margin-top: 0;
+    transform: scale(1);
+  }
+  25% {
+    color: darkorange;
+    transform: scale(10);
+  }
+  50% {
+    color: white;
+    transform: scaleY(0.1);
+    margin-left: 495px;
+    margin-top: -120px;
+  }
+  75% {
+    transform: scale(3);
+    color: rebeccapurple;
+  }
+  100% {
+    color: bisque;
+    transform: scale(7);
+    margin-left: -375px;
+    margin-top: 315px;
+  }
+}
+
+@keyframes pixel8 {
+  0% {
+    margin-left: 0;
+    margin-top: 0;
+    transform: scale(1);
+  }
+  25% {
+    color: red;
+    transform: scale(10);
+  }
+  50% {
+    color: white;
+    transform: scaleY(0.1);
+    margin-left: -295px;
+    margin-top: 420px;
+  }
+  75% {
+    transform: scale(3);
+    color: gainsboro;
+  }
+  100% {
+    color: green;
+    transform: scale(7);
+    margin-left: -375px;
+    margin-top: -315px;
+  }
+}
+
+@media (max-width: 650px) {
+  @keyframes go-crazy3 {
+    0%,
+    10% {
+      color: tomato;
+      z-index: 5;
+      right: 0;
+      top: 0;
+    }
+
+    25% {
+      right: 400px;
+      top: -60px;
+      color: #fff;
+    }
+
+    40%,
+    60% {
+      color: #fff;
+      transform: scale(1.5);
+      text-shadow: 0 0 100px #fff;
+    }
+    30%,
+    50%,
+    70% {
+      right: 26%;
+      top: -50px;
+      z-index: -5;
+      color: tomato;
+      font-weight: 400;
+      transform: scale(1, 1);
+      text-shadow: 0 0 60px tomato;
+    }
+
+    90%,
+    100% {
+      top: 0;
+      right: 0;
+      font-weight: 300;
+      color: tomato;
+      transform: scale(1, 1);
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  @keyframes go-crazy3 {
+    0%,
+    10% {
+      color: tomato;
+      z-index: 5;
+      right: 0;
+      top: 0;
+    }
+
+    25% {
+      right: 400px;
+      top: -60px;
+      color: #fff;
+    }
+
+    40%,
+    60% {
+      color: #fff;
+      transform: scale(1.5);
+      text-shadow: 0 0 100px #fff;
+    }
+    30%,
+    50%,
+    70% {
+      right: 31%;
+      top: -50px;
+      z-index: -5;
+      color: tomato;
+      font-weight: 400;
+      transform: scale(1, 1);
+      text-shadow: 0 0 60px tomato;
+    }
+
+    90%,
+    100% {
+      top: 0;
+      right: 0;
+      font-weight: 300;
+      color: tomato;
+      transform: scale(1, 1);
+    }
+  }
+
+  @keyframes go-crazy4 {
+    0%,
+    10% {
+      right: 0;
+      top: 0;
+    }
+
+    30%,
+    70% {
+      right: -16%;
+      top: 50px;
+    }
+    90%,
+    100% {
+      right: 0;
+      top: 0;
+    }
+  }
+
+  @keyframes go-crazy5 {
+    0%,
+    10% {
+      top: 0;
+      right: 0;
+    }
+
+    30%,
+    70% {
+      right: 16%;
+      top: 50px;
+    }
+    90%,
+    100% {
+      right: 0;
+      top: 0;
+    }
+  }
+
+  @keyframes go-crazy6 {
+    0%,
+    10% {
+      top: 0;
+      right: 0;
+    }
+
+    30%,
+    70% {
+      top: 50px;
+      right: -10px;
+    }
+    90%,
+    100% {
+      top: 0;
+      right: 0;
+    }
+  }
+}

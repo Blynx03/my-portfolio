@@ -1,17 +1,8 @@
-:root {
-  --lato: "Lato", sans-serif;
-  --montserrat: "Montserrat", sans-serif;
-  --roboto: "Roboto", sans-serif;
-  --rubik: "Rubik", sans-serif;
-  /* --side-color: rgba(241, 167, 132, 0.3); */
-  --side-color: rgba(30, 144, 255, 0.5);
-  --side-text-color: rgb(251, 241, 241);
-}
-
-body {
+@import url("var.css");
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .main-container {
@@ -24,16 +15,16 @@ body {
 
 .background-container {
   position: relative;
-  padding-top: 50%;
+  background-color: #191919;
+  height: 100%;
 }
 
-@media screen and (max-width: 1670px) {
+@media (max-width: 1670px) {
   .background-container {
-    padding-top: 58%;
   }
 }
 
-@media screen and (max-width: 850px) {
+@media (max-width: 850px) {
   .main-container {
     width: 100vw;
     height: 100vh;

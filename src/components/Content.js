@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext, useRef } from "react";
+import FilterOne from "./FilterOne";
 import DefaultMiddleContent from "./DefaultMiddleContent";
 import Games from "../pages/Games";
 import AppleClone from "../pages/AppleClone";
@@ -11,24 +12,107 @@ import Resume from "../pages/Resume";
 import Contact from "../pages/Contact";
 import Silya from "../pages/Silya";
 import "./content.css";
+import userContext from "./userContext";
+import generateRGB from "./generateRGB";
 
 const Content = () => {
-  let [linkPreview, setLinkPreview] = useState(<DefaultMiddleContent />);
+  const clientContext = useContext(userContext);
+  const linkPreview = clientContext.linkPreview;
+  const setLinkPreview = clientContext.setLinkPreview;
+  let windowWidth = clientContext.windowWidth;
+  let setGreeting = clientContext.setGreeting;
+  let mouseCoordinates = clientContext.mouseCoordinates;
+  const [isArrowUp, setIsArrowUp] = useState(false);
+  let intervalId = useRef(null);
+  let intervalId2 = useRef(null);
+  let timeoutId;
+  const refProjectsContainer = useRef(null);
+  const refMiddleContainer = useRef(null);
+  const refMenuContainer = useRef(null);
+  const refSpotlight = useRef(null);
 
   const getMidContent = (e) => {
-    const project = document.querySelector(".projects-container");
-    const midContainer = document.querySelector(".middle-container");
-    const menuContainer = document.querySelector(".menu-container");
-
     const value = e.target.getAttribute("data-value");
 
-    if (window.innerWidth <= 550) {
-      project.style.visibility = "hidden";
-      menuContainer.style.visibility = "hidden";
-      midContainer.style.visibility = "visible";
+    if (windowWidth <= 550) {
+      refProjectsContainer.current.style.visibility = "hidden";
+      refMenuContainer.current.style.visibility = "visible";
+      refMiddleContainer.current.style.visibility = "visible";
     }
     setLinkPreview(choice(value));
   };
+
+  useEffect(() => {
+    let { x, y } = mouseCoordinates;
+    let styleMouse = {
+      position: "fixed",
+      top: `${y - 50}px`,
+      left: `${x - 50}px`,
+      width: "100px",
+      height: "100px",
+      filter: "blur(60px)",
+      borderRadius: "50%",
+      color: "transparent",
+      backgroundColor: "darkturquoise",
+      // backgroundColor: "white",
+      animation: "spotlight 2000ms linear alternate",
+    };
+
+    if (document.querySelector(".spotlight")) {
+      const prevSpotlight = document.querySelector(".spotlight");
+      prevSpotlight.remove();
+    }
+    const spotlightEl = document.createElement("div");
+    spotlightEl.className = "spotlight";
+    spotlightEl.innerText = ".";
+    Object.assign(spotlightEl.style, styleMouse);
+
+    document.body.appendChild(spotlightEl);
+  }, [mouseCoordinates]);
+
+  useEffect(() => {
+    intervalId = setInterval(() => {
+      let { colorR, colorG, colorB } = generateRGB();
+      const nameElement = document.querySelector(".name");
+      const nameShadowElement = document.querySelector(".name-shadow");
+
+      if (nameElement || nameShadowElement) {
+        nameElement.style.color = `rgb(${colorR}, ${colorG}, ${colorB})`;
+        nameShadowElement.style.color = `rgb(${colorR}, ${colorG}, ${colorB})`;
+      }
+    }, 8000);
+
+    if (linkPreview) {
+      if (linkPreview.type.name !== "DefaultMiddleContent") {
+        clearInterval(intervalId);
+      }
+    }
+
+    const changeGreeting = () => {
+      setGreeting((prevGreeting) =>
+        prevGreeting === `Hi! I'm` ? "...and" : `Hi! I'm`
+      );
+    };
+    timeoutId = setTimeout(() => {
+      changeGreeting();
+      intervalId2 = setInterval(changeGreeting, 4000);
+    }, 2000);
+
+    return () => {
+      clearInterval(intervalId2);
+      clearTimeout(timeoutId);
+    };
+  }, [linkPreview]);
+
+  useEffect(() => {
+    if (
+      refProjectsContainer.current.style.visibility === "hidden" &&
+      refMenuContainer.current.style.visibility === "hidden"
+    ) {
+      refMiddleContainer.current.style.visibility = "visible";
+      setLinkPreview(<DefaultMiddleContent />);
+    }
+  }, [windowWidth]);
 
   function choice(value) {
     switch (value) {
@@ -52,65 +136,115 @@ const Content = () => {
         return <DefaultMiddleContent />;
       case "repositories":
         window.open("https://github.com/Blynx03?tab=repositories", "_blank");
-        break;
+        return <DefaultMiddleContent />;
       case "resume":
         return <Resume />;
       case "contact":
         return <Contact />;
-      case "default":
-        return <DefaultMiddleContent />;
       default:
         return <DefaultMiddleContent />;
     }
   }
 
   function handleClick(value) {
-    console.log(value);
-    const project = document.querySelector(".projects-container");
-    const midContainer = document.querySelector(".middle-container");
-    const menuContainer = document.querySelector(".menu-container");
-    if (window.innerWidth <= 550) {
-      midContainer.style.visibility = "hidden";
+    if (windowWidth <= 1000 && windowWidth >= 650) {
       switch (value) {
         case "projects":
-          project.style.visibility =
-            project.style.visibility === "visible" ? "hidden" : "visible";
-          menuContainer.style.visibility = "hidden";
+          setIsArrowUp(!isArrowUp);
+          refProjectsContainer.current.style.visibility =
+            refProjectsContainer.current.style.visibility === "visible"
+              ? "hidden"
+              : "visible";
+          refMenuContainer.current.style.visibility = "hidden";
           break;
         case "menu":
-          menuContainer.style.visibility =
-            menuContainer.style.visibility === "visible" ? "hidden" : "visible";
-          project.style.visibility = "hidden";
+          refMenuContainer.current.style.visibility =
+            refMenuContainer.current.style.visibility === "visible"
+              ? "hidden"
+              : "visible";
+          refProjectsContainer.current.style.visibility = "hidden";
           break;
         default:
           return;
       }
-    } else if (window.innerWidth >= 551) {
-      project.style.visibility = "visible";
-      midContainer.style.visibility = "visible";
-      menuContainer.style.visibility = "visible";
+    } else if (windowWidth < 650) {
+      switch (value) {
+        case "projects":
+          setIsArrowUp(!isArrowUp);
+          refProjectsContainer.current.style.visibility =
+            refProjectsContainer.current.style.visibility === "hidden"
+              ? "visible"
+              : "hidden";
+          break;
+        case "menu":
+          refMenuContainer.current.style.visibility =
+            refMenuContainer.current.style.visibility === "visible"
+              ? "hidden"
+              : "visible";
+          refProjectsContainer.current.style.visibility = "hidden";
+          break;
+        default:
+          return;
+      }
     }
   }
 
+  useEffect(() => {
+    if (windowWidth > 1000) {
+      refProjectsContainer.current.style.visibility = "visible";
+      refMenuContainer.current.style.visibility = "visible";
+    }
+    if (windowWidth >= 650 && windowWidth <= 1000) {
+      refMenuContainer.current.style.visibility = "hidden";
+      refProjectsContainer.current.style.visibility = "hidden";
+      document.querySelector(".menu-icon-container").style.display = "block";
+    }
+
+    if (windowWidth < 650) {
+      document
+        .querySelectorAll(".sub-container")
+        .forEach((el) => (el.style.display = "block"));
+      document.querySelector(".menu-icon-container").style.display = "none";
+      refProjectsContainer.current.style.visibility = "hidden";
+      refMenuContainer.current.style.visibility = "visible";
+    }
+  }, [windowWidth]);
+
   return (
-    <div className="content-container">
+    <div ref={refSpotlight} className="content-container">
+      <FilterOne />
       <div
         className="top-left-container"
         // onClick={getMidContent}
         data-value="default"
       >
         <div
-          className="my-projects"
-          onClick={(e) => handleClick(e.target.getAttribute("data-value"))}
+          className="project-title-container"
           data-value="projects"
+          onClick={(e) => handleClick(e.target.getAttribute("data-value"))}
         >
-          PROJECTS
-          <span className="material-symbols-outlined down-arrow">
-            expand_more
-          </span>
+          <div className="my-projects" data-value="projects">
+            PROJECTS
+          </div>
+          {!isArrowUp ? (
+            <span
+              className="material-symbols-outlined arrow"
+              data-value="projects"
+            >
+              expand_more
+            </span>
+          ) : (
+            <span
+              className="material-symbols-outlined arrow"
+              data-value="projects"
+            >
+              expand_less
+            </span>
+          )}
         </div>
 
         <div
+          ref={refProjectsContainer}
           className="projects-container"
           // onClick={getMidContent}
           data-value="default"
@@ -127,7 +261,18 @@ const Content = () => {
               </li>
             </ul>
           </div>
-
+          <div className="projects" onClick={getMidContent} data-value="game">
+            Game
+            <ul className="sub-container">
+              <li
+                className="mastermind sub"
+                onClick={getMidContent}
+                data-value="game"
+              >
+                MasterMind
+              </li>
+            </ul>
+          </div>
           <div className="projects">
             Cloned Sites
             <ul className="sub-container">
@@ -144,18 +289,6 @@ const Content = () => {
                 data-value="worldbank-clone"
               >
                 World Bank Website
-              </li>
-            </ul>
-          </div>
-          <div className="projects" onClick={getMidContent} data-value="game">
-            Game
-            <ul className="sub-container">
-              <li
-                className="mastermind sub"
-                onClick={getMidContent}
-                data-value="game"
-              >
-                MasterMind
               </li>
             </ul>
           </div>
@@ -198,20 +331,24 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="middle-container">{linkPreview}</div>
+      <div ref={refMiddleContainer} className="middle-container">
+        {linkPreview}
+      </div>
       <div
         className="bottom-right-container"
         // onClick={getMidContent}
         data-value="default"
       >
-        <span
-          className="material-symbols-outlined"
-          onClick={(e) => handleClick(e.target.getAttribute("data-value"))}
-          data-value="menu"
-        >
-          menu
-        </span>
-        <div className="menu-container">
+        <div className="menu-icon-container">
+          <span
+            className="material-symbols-outlined menu-icon"
+            onClick={(e) => handleClick(e.target.getAttribute("data-value"))}
+            data-value="menu"
+          >
+            menu
+          </span>
+        </div>
+        <div ref={refMenuContainer} className="menu-container">
           <div className="home" onClick={getMidContent} data-value="home">
             Home
           </div>

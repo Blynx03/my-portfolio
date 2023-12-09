@@ -24,7 +24,7 @@ const Cp24 = ({ value }) => {
         />
       </div>
       <h3>Features:</h3>
-      <ul>
+      <ul className="features-container">
         <li>Real-Time Information - Date and Time</li>
         <li>User's IP Location</li>
         <li>Weather Forecast</li>

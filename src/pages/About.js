@@ -9,8 +9,8 @@ const About = () => {
         <p className="about-paragraph">
           Hi there! My name is Charlie Chan, a passionate individual on a
           transformative journey from my previous role as a seasoned Senior
-          Quotation Analyst to my current pursuit as a Web, JavaScript, and
-          React Developer.
+          Quotation Analyst to my current pursuit as a Front-End Web,
+          JavaScript, and React Developer.
         </p>
 
         <p className="about-paragraph">

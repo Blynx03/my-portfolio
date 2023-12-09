@@ -4,7 +4,7 @@
 }
 .nickel-header {
   padding: 2%;
-  font-size: 3rem;
+  font-size: clamp(1.6rem, 4.5vw, 3.8rem);
   text-shadow: 1px 1px black, 0 0 5px black;
   font-weight: 600;
   text-align: center;

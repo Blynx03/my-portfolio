@@ -28,6 +28,7 @@
   font-weight: 300;
   display: flex;
   justify-content: center;
+  text-align: center;
   text-shadow: 0 0 3px black;
 }
 
@@ -39,9 +40,10 @@
   display: flex;
   align-items: center;
   position: relative;
+  z-index: 14;
 }
 
-label {
+.form-container > label {
   width: 85%;
   font-weight: 400;
   font-size: 1.1rem;
@@ -49,7 +51,7 @@ label {
   color: dodgerblue;
 }
 
-input {
+.form-container > input {
   padding: 1.5% 3%;
   width: 70%;
   margin-bottom: 3%;
@@ -65,13 +67,14 @@ input {
 .send-btn {
   margin-top: 30px;
   margin-bottom: 30px;
-  padding: 1% 5%;
+  padding: 0.75em 2em;
   border-radius: 20px;
   bottom: 0;
   border: none;
   color: hsla(100, 100%, 100%, 0.8);
   background-color: dodgerblue;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 .send-btn:hover {
@@ -87,7 +90,7 @@ input {
   background: hsla(0, 0%, 0%, 0.5);
   padding: 1.5%;
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 300;
   position: absolute;
   bottom: 20px;
 }
@@ -103,49 +106,36 @@ input {
   color: dodgerblue;
 }
 
-@media screen and (max-width: 525px) {
-  .contact-container {
-    padding: 2%;
-    width: 90vw;
+@media (max-width: 1000px) {
+  .form-container > input {
+    padding: 1.5% 3%;
+    width: 90%;
+    margin-bottom: 5%;
+    font-family: var(--montserrat);
   }
 
-  .contact-header {
-    font-size: 2.6rem;
+  .form-container > label {
+    font-weight: 300;
+    font-size: clamp(0.9rem, 2.2vw, 1.1rem);
+    padding: 0 4% 0.5% 0;
   }
 
-  .sweet-note {
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  label {
-    font-size: 1rem;
+  #message {
+    width: 90%;
   }
 
   .send-btn {
-    margin-top: 20px;
-    padding: 2.6% 9%;
     font-size: 0.9rem;
   }
 
   .contact-info-container {
-    position: sticky;
-    bottom: 0;
-    width: 100%;
-    padding: 2% 1%;
-    font-size: 0.9rem;
-    font-weight: 400;
-    bottom: 0;
     display: grid;
     grid-template-areas:
       "contact contact"
       "email tel";
-  }
-
-  .email-container,
-  .tel-container {
-    display: flex;
     gap: 10px;
+    font-size: clamp(0.9rem, 2.3vw, 1.2rem);
+    font-weight: 300;
   }
 
   .contact-info {
@@ -159,9 +149,14 @@ input {
   .tel-container {
     grid-area: tel;
   }
+}
 
-  .contact-email,
-  .contact-tel {
-    color: dodgerblue;
+@media (max-width: 430px) {
+  .contact-info-container {
+    width: 80%;
+    padding: 2% 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

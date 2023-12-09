@@ -1,0 +1,19 @@
+:root {
+  --lato: "Lato", sans-serif;
+  --montserrat: "Montserrat", sans-serif;
+  --roboto: "Roboto", sans-serif;
+  --rubik: "Rubik", sans-serif;
+  --raleway: "Raleway", sans-serif;
+  /* --side-color: rgba(241, 167, 132, 0.3); */
+  --side-color: rgba(30, 144, 255, 0.5);
+  --side-text-color: rgb(251, 241, 241);
+
+  --blue-0: #508ed5;
+  --blue-1: #78a3d4;
+
+  --blue-2: #8badd3;
+  --blue-3: #93b9dd;
+  --blue-4: #a6c3e4;
+  --blue-5: #c0d4e1;
+  --blue-6: #cfe0eb;
+}

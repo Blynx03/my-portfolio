@@ -3,6 +3,7 @@ import "./resume.css";
 
 const Resume = () => {
   function viewPDF() {
+    console.log("got clicked");
     window.open("images/CRC-resume2023.pdf", "_blank");
   }
 
@@ -11,11 +12,11 @@ const Resume = () => {
       <iframe
         title="My CV"
         src="images/CRC-resume2023.pdf"
-        frameborder="0"
+        frameBorder="0"
         className="resume-iframe"
       />
       <div className="resume-link-container">
-        <div className="resume-link" onClick={() => viewPDF()}>
+        <div className="resume-link" onClick={viewPDF}>
           View PDF
         </div>
       </div>

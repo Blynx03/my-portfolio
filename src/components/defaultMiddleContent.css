@@ -1,68 +1,146 @@
+@import url("../var.css");
+@import url("../animate.css");
+
 .name-section-container {
   width: 100%;
   height: 100%;
-  display: grid;
-  grid-template-rows: 1.5fr 3.5fr 5fr;
+  display: flex;
+  /* grid-template-rows: 1.5fr 3.5fr 5fr;
   grid-template-areas:
     "greeting"
     "name"
-    "desc";
-  /* flex-direction: column; */
+    "name"
+    "desc"; */
+  flex-direction: column;
 }
 
 .greeting {
-  grid-area: greeting;
+  /* grid-area: greeting; */
   font-size: 3rem;
   font-weight: 200;
   display: flex;
   align-items: flex-end;
-  padding: 2% 5%;
+  padding: 5% 5% 0%;
 }
 
-.name {
+.name,
+.name-shadow {
+  margin-top: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-area: name;
-  font-size: 9rem;
-  font-family: var(--montserrat);
+  /* grid-area: name; */
+  font-size: clamp(7vw, 9vw, 10vw);
+  font-family: var(--raleway);
   font-weight: 300;
-  color: dodgerblue;
+  color: darkgoldenrod;
+  letter-spacing: 16px;
+  height: 200px;
+  z-index: 25;
+}
+
+.name-shadow {
+  margin-top: 20px;
+  filter: blur(9px);
+  text-shadow: 0 -10px 150px var(--blue-6);
+  transform: scaleY(-0.5);
+}
+
+.letter-c,
+.shadow-c {
+  position: relative;
+  animation: go-crazy4 8000ms ease infinite alternate;
+}
+.letter-h,
+.shadow-h {
+  animation: go-crazy1 8000ms ease-in infinite alternate;
+}
+
+.letter-l,
+.shadow-l {
+  animation: go-crazy2 8000ms ease infinite alternate;
+}
+
+.letter-i,
+.shadow-i {
+  position: relative;
+  animation: go-crazy3 8000ms ease-out infinite;
+  z-index: 25;
+}
+
+.letter-e,
+.shadow-e {
+  position: relative;
+  animation: go-crazy5 8000ms ease-out infinite;
+}
+
+.letter-a,
+.shadow-a,
+.letter-r,
+.shadow-r {
+  position: relative;
+  animation: go-crazy6 8000ms ease-in infinite;
 }
 
 .my-description {
-  grid-area: desc;
   display: flex;
   align-items: center;
   font-style: italic;
   font-size: 2.5rem;
   font-weight: 200;
-  text-shadow: 0 0 1px black, 0 0 20px white;
+  text-shadow: 0 0 1px black, 0 0 20px var(--blue-5);
   text-align: center;
+  position: absolute;
+  bottom: 10%;
 }
 
-@media screen and (max-width: 525px) {
+@media (max-width: 1000px) {
+  .name-shadow {
+    margin-top: 20px;
+  }
+
+  .my-description {
+    bottom: 0%;
+    font-size: 3.5vw;
+  }
+}
+
+@media (max-width: 650px) {
   .name-section-container {
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .greeting {
     font-size: 2.5rem;
-    align-items: center;
   }
 
   .name {
-    margin-top: -70px;
-    font-size: 4.5rem;
-    text-shadow: 1px 1px 1px black, 0 0 4px white;
+    margin-top: 30px;
+    font-size: clamp(3rem, 16vw, 4.5rem);
+    /* text-shadow: 1px 1px 1px black, 0 0 4px white; */
+  }
+
+  .name-shadow {
+    margin-top: -30px;
   }
 
   .my-description {
     /* width: 80vw; */
-    font-size: 1.9rem;
+    font-size: clamp(1.2rem, 6vw, 2rem);
     align-items: flex-start;
     text-align: center;
     line-height: 50px;
+    bottom: 12%;
+  }
+}
+
+@media (max-width: 500px) {
+  .name {
+    font-size: clamp(1.5rem, 12vw, 4rem);
+  }
+
+  .name-shadow {
+    margin-top: -50px;
   }
 }

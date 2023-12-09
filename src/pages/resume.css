@@ -16,6 +16,7 @@
   bottom: 0;
   padding: 6%;
   background-color: hsla(0, 0%, 0%, 0.5);
+  z-index: 25;
 }
 
 .resume-link {
