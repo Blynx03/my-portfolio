@@ -1,6 +1,8 @@
 .article-container {
   height: 100%;
   width: 100%;
+  z-index: 10;
+  padding-bottom: 30%;
 }
 .cp24-header {
   padding: 2%;

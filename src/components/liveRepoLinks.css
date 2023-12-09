@@ -51,11 +51,6 @@
 }
 
 @media (max-width: 650px) {
-  .live-repo-container {
-    position: absolute;
-  }
-  .code-site-link {
-  }
 }
 
 @media (max-width: 525px) {

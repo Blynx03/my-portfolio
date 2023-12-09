@@ -32,8 +32,6 @@ li {
   font-size: 1.3rem;
 }
 @media (max-width: 525px) {
-  .article-container {
-  }
   .nickel-header {
     font-size: 1.8rem;
   }
