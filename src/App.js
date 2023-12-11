@@ -1,5 +1,4 @@
 import "./App.css";
-import FilterOne from "./components/FilterOne";
 import Content from "./components/Content";
 import { useEffect, useState } from "react";
 import userContext from "./components/userContext";
@@ -45,9 +44,9 @@ function App() {
       }}
     >
       <div className="main-container">
-        <div className="background-container">
+        {/* <div className="background-container">
           <FilterOne />
-        </div>
+        </div> */}
 
         <Content />
       </div>

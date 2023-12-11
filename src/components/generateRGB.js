@@ -1,7 +1,7 @@
 const generateRGB = () => {
-  let colorR = Math.floor(Math.random() * 255);
-  let colorG = Math.floor(Math.random() * 255);
-  let colorB = Math.floor(Math.random() * 255);
+  let colorR = Math.floor(Math.random() * 256);
+  let colorG = Math.floor(Math.random() * 256);
+  let colorB = Math.floor(Math.random() * 256);
 
   if (colorR < 51) {
     colorR += 50;

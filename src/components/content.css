@@ -282,6 +282,7 @@
     align-items: flex-start;
     padding: 0%;
     gap: 0;
+    margin-top: 10px;
   }
 
   .project-title-container {
@@ -291,9 +292,6 @@
 
   .chevron_right {
     font-size: 2rem;
-  }
-
-  .my-projects {
   }
 
   .projects-container {

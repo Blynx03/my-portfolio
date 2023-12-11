@@ -1,5 +1,5 @@
 import React from "react";
-import { useContext, useState, useEffect, useRef } from "react";
+import { useContext, useEffect, useRef } from "react";
 import "./filterOne.css";
 import generateRGB from "./generateRGB";
 import userContext from "./userContext";
@@ -9,7 +9,7 @@ const FilterOne = () => {
   const windowHeight = clientContext.windowHeight;
   const windowWidth = clientContext.windowWidth;
   const linkPreview = clientContext.linkPreview;
-  const [pixelOn, setPixelOn] = useState(true);
+  const pixelOn = true;
   const refPixel = useRef();
 
   useEffect(() => {
@@ -20,14 +20,15 @@ const FilterOne = () => {
         // refPixel.current.removeChild(pixelEl);
         // refPixel.current.remove();
       }
+
       let { colorR, colorG, colorB } = generateRGB();
-      let animate = Math.floor(Math.random() * 10);
+      let animate = Math.floor(Math.random() * 11);
       let style = Math.floor(Math.random() * 2);
       let x = Math.floor(Math.random() * windowWidth);
       let y = Math.floor(Math.random() * windowHeight);
       let stylePixel = [
         {
-          color: `rgba(${colorR},${colorG},${colorB}, 0.5)`,
+          backgroundColor: `rgba(${colorR},${colorG},${colorB}, 0.2)`,
           position: "fixed",
           width: "1px",
           height: "1px",
@@ -36,18 +37,19 @@ const FilterOne = () => {
           animation: `pixel${animate} 8000ms ease`,
         },
         {
-          color: `rgb(${colorG},${colorB},${colorR})`,
+          backgroundColor: `rgba(${colorG},${colorB},${colorR}, 0.2)`,
           position: "fixed",
-          width: "2px",
-          height: "2px",
+          width: "10px",
+          height: "10px",
           top: `${x}px`,
           left: `${y}px`,
           animation: `pixel${animate} 8000ms ease`,
         },
       ];
 
-      pixelEl.className = "pixel";
-      pixelEl.innerText = ".";
+      if (style < 1) {
+        pixelEl.innerText = ".";
+      }
       Object.assign(pixelEl.style, stylePixel[style]);
       if (refPixel) {
         refPixel.current.appendChild(pixelEl);
@@ -61,7 +63,7 @@ const FilterOne = () => {
         clearInterval(shower);
       }
     };
-  }, [linkPreview]);
+  }, [linkPreview, windowWidth, windowHeight, pixelOn]);
 
   return <div ref={refPixel} className="filter-one"></div>;
 };

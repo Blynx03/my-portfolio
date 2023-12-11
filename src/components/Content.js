@@ -25,7 +25,7 @@ const Content = () => {
   const [isArrowUp, setIsArrowUp] = useState(false);
   let intervalId = useRef(null);
   let intervalId2 = useRef(null);
-  let timeoutId;
+  let timeoutId = useRef(null);
   const refProjectsContainer = useRef(null);
   const refMiddleContainer = useRef(null);
   const refMenuContainer = useRef(null);
@@ -71,7 +71,7 @@ const Content = () => {
   }, [mouseCoordinates]);
 
   useEffect(() => {
-    intervalId = setInterval(() => {
+    intervalId.current = setInterval(() => {
       let { colorR, colorG, colorB } = generateRGB();
       const nameElement = document.querySelector(".name");
       const nameShadowElement = document.querySelector(".name-shadow");
@@ -84,7 +84,10 @@ const Content = () => {
 
     if (linkPreview) {
       if (linkPreview.type.name !== "DefaultMiddleContent") {
-        clearInterval(intervalId);
+        clearInterval(intervalId.current);
+        refMiddleContainer.current.style.overflowY = "scroll";
+      } else {
+        refMiddleContainer.current.style.overflow = "hidden";
       }
     }
 
@@ -93,16 +96,16 @@ const Content = () => {
         prevGreeting === `Hi! I'm` ? "...and" : `Hi! I'm`
       );
     };
-    timeoutId = setTimeout(() => {
+    timeoutId.current = setTimeout(() => {
       changeGreeting();
-      intervalId2 = setInterval(changeGreeting, 4000);
+      intervalId2.current = setInterval(changeGreeting, 4000);
     }, 2000);
 
     return () => {
-      clearInterval(intervalId2);
-      clearTimeout(timeoutId);
+      clearInterval(intervalId2.current);
+      clearTimeout(timeoutId.current);
     };
-  }, [linkPreview]);
+  }, [linkPreview, setGreeting]);
 
   useEffect(() => {
     if (
@@ -112,7 +115,7 @@ const Content = () => {
       refMiddleContainer.current.style.visibility = "visible";
       setLinkPreview(<DefaultMiddleContent />);
     }
-  }, [windowWidth]);
+  }, [windowWidth, setLinkPreview]);
 
   function choice(value) {
     switch (value) {
