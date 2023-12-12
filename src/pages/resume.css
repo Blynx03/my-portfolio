@@ -3,7 +3,7 @@
   height: 100%;
   overflow: scroll;
   z-index: 10;
-  padding-bottom: 30%;
+  /* padding-bottom: 30%; */
 }
 
 .resume-iframe {
