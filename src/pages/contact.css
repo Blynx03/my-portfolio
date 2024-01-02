@@ -151,6 +151,27 @@
   }
 }
 
+@media (max-width: 650px) {
+  .contact-header {
+    margin: 0 0 10px 0;
+    font-size: 1.8rem;
+  }
+
+  .sweet-note {
+    font-size: 0.9rem;
+  }
+
+  .send-btn {
+    padding: 0.6rem 1.3rem;
+    font-size: 0.8rem;
+    margin: 20px 0;
+  }
+
+  .contact-info-container {
+    bottom: 0px;
+  }
+}
+
 @media (max-width: 430px) {
   .contact-info-container {
     width: 80%;

@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect, useState, useContext } from "react";
+import { useContext } from "react";
 import "./defaultMiddleContent.css";
 import userContext from "./userContext";
 

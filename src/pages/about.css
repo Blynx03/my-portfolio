@@ -44,11 +44,11 @@ p {
     font-size: 1rem;
     margin: 10px;
     font-family: var(--roboto);
-    font-weight: 200;
+    font-weight: 300;
   }
 
   .last-note {
-    font-size: 1.9rem;
+    font-size: 1.4rem;
     margin-bottom: 15%;
   }
 }
