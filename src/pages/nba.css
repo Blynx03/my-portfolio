@@ -25,6 +25,7 @@
 .nba-image2 {
   width: 100%;
   font-size: clamp(0.9rem, 1.7vw, 1rem);
+  margin: 20px 0;
 }
 
 @media (max-width: 525px) {

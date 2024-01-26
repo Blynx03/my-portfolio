@@ -24,11 +24,13 @@
 .worldbank-image1 {
   width: 100%;
   font-size: clamp(0.9rem, 1.7vw, 1rem);
+  margin: 20px 0;
 }
 
 .worldbank-image2 {
   width: 50%;
   font-size: clamp(0.9rem, 1.7vw, 1rem);
+  margin: 20px 0;
 }
 
 @media (max-width: 850px) {
