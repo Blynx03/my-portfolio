@@ -6,7 +6,7 @@ Welcome to my portfolio, where you can learn more about me, explore my projects,
 
 ## About Me
 
-I am a Web Developer with a passion for creating beautiful and engaging web experiences. Proficient in HTML, CSS, JavaScript, and React, I'm on a transformative journey to become a full-stack developer. In line with my goals, I'm also exploring Python, SQL, Node.js and Ruby on Rails but may change depending on the technologies used in the company I will work with.
+I am a Web Developer with a passion for creating beautiful and engaging web experiences. Proficient in HTML, CSS, JavaScript, and React, and currently enhancing my skills in TypeScript, JQuery and SASS. I'm on a transformative journey to become a full-stack developer. In line with my goals, I'm also exploring Python, SQL, Node.js and Ruby on Rails but may change depending on the technologies used in the company I will work with.
 
 ## Technologies
 
