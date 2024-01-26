@@ -9,7 +9,7 @@ const About = () => {
         <p className="about-paragraph">
           Hi there! My name is Charlie Chan, a passionate individual on a
           transformative journey from my previous role as a seasoned Senior
-          Quotation Analyst to my current pursuit as a Front-End Web,
+          Quotation Analyst to my current pursuit as a Front-End Web, Software,
           JavaScript, and React Developer.
         </p>
 
@@ -47,10 +47,11 @@ const About = () => {
 
         <p className="about-paragraph">
           I'm a web developer proficient in HTML, CSS, JavaScript, and React,
-          with aspirations to become a full-stack developer. My journey includes
-          mastering Python, SQL, and possibly Ruby on Rails. I'm dedicated to
-          composing refined code while continually enhancing my skills to
-          deliver captivating web experiences
+          with aspirations to become a full-stack developer. I am currently
+          enhancing my skills in TypeScript, jQuery and SASS, and my journey
+          includes mastering Python, SQL, and possibly Ruby on Rails. I'm
+          dedicated to composing refined code while continually enhancing my
+          skills to deliver captivating web experiences
         </p>
 
         <p className="about-paragraph">

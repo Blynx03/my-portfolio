@@ -77,7 +77,7 @@ This is a simple REST API project that provides information about basketball tea
 
 You can check out my detailed resume for more information about my background and skills.
 
-- [Resume](/CRC-resume2023.pdf)
+- [Resume](/CRC-resume2024.pdf)
 - [Web Dev Certificate](/WebCertificate.pdf)
 
 ## Contact Me
