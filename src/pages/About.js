@@ -7,7 +7,7 @@ const About = () => {
       <div className="about-container">
         <h2 className="about-header">About Me</h2>
         <p className="about-paragraph">
-          Hi there! My name is Charlie Chan, a passionate individual on a
+          Hi! My name is Charlie Chan, a passionate individual on a
           transformative journey from my previous role as a seasoned Senior
           Quotation Analyst to my current pursuit as a Front-End Web, Software,
           JavaScript, and React Developer.
@@ -46,12 +46,13 @@ const About = () => {
         </p>
 
         <p className="about-paragraph">
-          I'm a web developer proficient in HTML, CSS, JavaScript, and React,
-          with aspirations to become a full-stack developer. I am currently
-          enhancing my skills in TypeScript, jQuery and SASS, and my journey
-          includes mastering Python, SQL, and possibly Ruby on Rails. I'm
-          dedicated to composing refined code while continually enhancing my
-          skills to deliver captivating web experiences
+          I'm a software developer proficient in HTML, CSS, JavaScript, and
+          React, with aspirations to become a full-stack developer. I am
+          currently enhancing my skills in TypeScript, jQuery, Redux and SASS,
+          and my journey includes mastering Node.js, Python, Express.js, SQL,
+          PHP, GraphQL, OAuth and possibly Django. I'm dedicated to composing
+          refined code while continually enhancing my skills to deliver
+          captivating web experiences
         </p>
 
         <p className="about-paragraph">
