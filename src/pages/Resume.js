@@ -3,7 +3,6 @@ import "./resume.css";
 
 const Resume = () => {
   function viewPDF() {
-    console.log("got clicked");
     window.open("images/CRC-resume2025.pdf", "_blank");
   }
 
