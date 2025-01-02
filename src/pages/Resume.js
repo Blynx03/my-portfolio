@@ -4,14 +4,14 @@ import "./resume.css";
 const Resume = () => {
   function viewPDF() {
     console.log("got clicked");
-    window.open("images/CRC-resume2024.pdf", "_blank");
+    window.open("images/CRC-resume2025.pdf", "_blank");
   }
 
   return (
     <div className="resume-container">
       <iframe
         title="My CV"
-        src="images/CRC-resume2024.pdf"
+        src="images/CRC-resume2025.pdf"
         frameBorder="0"
         className="resume-iframe"
       />
