@@ -9,7 +9,7 @@
   height: 100vh;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr); 
   grid-template-areas:
     ". . . . . . . . . ."
     "tl tl tl mid mid mid mid . . ."
@@ -65,6 +65,7 @@
   cursor: pointer;
   color: hsla(0, 0%, 0%, 1);
   background-color: hsla(100, 100%, 100%, 0.7);
+  border-radius: 4px;
   transform: scale(1.05);
   font-weight: 300;
   text-shadow: none;
@@ -77,6 +78,10 @@
   flex-direction: column;
   margin-top: 0px;
   gap: 30px;
+}
+
+.arrow {
+  font-size: clamp(1rem, 2vw, 1.4rem);
 }
 
 .sub-container {
@@ -94,19 +99,19 @@
   cursor: pointer;
   text-align: center;
   list-style: none;
-  animation: glow 2000ms linear alternate infinite;
+  transition: transform 0.1s ease;
 }
 
 .middle-container {
   position: relative;
   grid-area: mid;
   color: white;
-  overflow-y: scroll;
+  overflow-y: auto; 
   width: 60vw;
   height: 90vh;
-  /* background-color: hsla(0, 0%, 0%, 0.4); */
   box-sizing: border-box;
 }
+
 
 .middle-container > p {
   font-weight: 400;
@@ -137,9 +142,15 @@
   z-index: 15;
 }
 
-.menu-container > div {
-  animation: glow 2000ms linear infinite alternate;
+.menu-container div {
+  padding: 1%;
+  transition: transform 0.1s ease;
 }
+
+.menu-container > div:hover {
+  transform: scale(1.1);
+}
+
 .material-symbols-outlined {
   visibility: hidden;
 }
@@ -189,7 +200,7 @@
 
   .arrow {
     margin-left: 5px;
-    font-size: clamp(0.8rem, 1.3vw, 1.5rem);
+    font-size: clamp(1rem, 3.5vw, 1.5rem);
   }
 
   .projects-container {
@@ -238,7 +249,7 @@
 
   .material-symbols-outlined {
     visibility: visible;
-    font-size: 1.8rem;
+    /* font-size: 2.8rem; */
     font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
   }
 
@@ -271,15 +282,15 @@
       "br br br br br br br"
       "tl tl tl tl tl tl tl"
       "tl tl tl tl tl tl tl"
-      ". mid mid mid mid mid ."
-      ". mid mid mid mid mid ."
-      ". mid mid mid mid mid ."
-      ". mid mid mid mid mid ."
-      ". mid mid mid mid mid ."
-      ". mid mid mid mid mid ."
-      ". mid mid mid mid mid ."
-      ". mid mid mid mid mid ."
-      ". mid mid mid mid mid .";
+      "mid mid mid mid mid mid mid"
+      "mid mid mid mid mid mid mid"
+      "mid mid mid mid mid mid mid"
+      "mid mid mid mid mid mid mid"
+      "mid mid mid mid mid mid mid"
+      "mid mid mid mid mid mid mid"
+      "mid mid mid mid mid mid mid"
+      "mid mid mid mid mid mid mid"
+      "mid mid mid mid mid mid mid";
   }
 
   .top-left-container {
@@ -340,6 +351,7 @@
   .sub:hover {
     transform: none;
   }
+
   .bottom-right-container {
     padding: 3%;
     flex-direction: row;
@@ -369,18 +381,28 @@
     grid-template-areas:
       "br br br br br br br"
       "tl tl tl tl tl tl tl"
-      ". mid mid mid mid mid ."
-      ". mid mid mid mid mid ."
-      ". mid mid mid mid mid ."
-      ". mid mid mid mid mid ."
-      ". mid mid mid mid mid ."
-      ". mid mid mid mid mid ."
-      ". mid mid mid mid mid ."
-      ". mid mid mid mid mid ."
-      ". mid mid mid mid mid ."
-      ". mid mid mid mid mid .";
+      "mid mid mid mid mid mid mid"
+      "mid mid mid mid mid mid mid"
+      "mid mid mid mid mid mid mid"
+      "mid mid mid mid mid mid mid"
+      "mid mid mid mid mid mid mid"
+      "mid mid mid mid mid mid mid"
+      "mid mid mid mid mid mid mid"
+      "mid mid mid mid mid mid mid"
+      "mid mid mid mid mid mid mid"
+      "mid mid mid mid mid mid mid";
   }
   .menu-container {
-    padding: 1.7%;
+    width: 100vw;
+    font-size: 0.8rem;
+    padding: 1.4%;
+  }
+
+  .my-projects {
+    font-size: 0.8rem;
+  }
+
+  .project-title-container .material-symbols-outlined {
+    font-size: 1.3rem;
   }
 }

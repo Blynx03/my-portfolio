@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useContext, useEffect, useRef } from "react";
 import "./filterOne.css";
 import generateRGB from "./generateRGB";
@@ -10,16 +10,17 @@ const FilterOne = () => {
   const windowWidth = clientContext.windowWidth;
   const linkPreview = clientContext.linkPreview;
   const pixelOn = true;
+  const [ isPixelOn, setIsPixelOn ] = useState(false);
   const refPixel = useRef();
 
   useEffect(() => {
     let shower = setInterval(() => {
       const pixelEl = document.createElement("div");
 
-      if (refPixel || (refPixel.current.contains(pixelEl) && pixelEl)) {
+      // if (refPixel || (refPixel.current.contains(pixelEl) && pixelEl)) {
         // refPixel.current.removeChild(pixelEl);
         // refPixel.current.remove();
-      }
+      // }
 
       let { colorR, colorG, colorB } = generateRGB();
       let animate = Math.floor(Math.random() * 11);
@@ -51,7 +52,8 @@ const FilterOne = () => {
         pixelEl.innerText = ".";
       }
       Object.assign(pixelEl.style, stylePixel[style]);
-      if (refPixel) {
+      if (refPixel && !isPixelOn) {
+        setIsPixelOn(true);
         refPixel.current.appendChild(pixelEl);
         setTimeout(() => {
           refPixel.current.removeChild(pixelEl);
@@ -60,10 +62,11 @@ const FilterOne = () => {
     }, 2000);
     return () => {
       if (!pixelOn) {
+        setIsPixelOn(false);
         clearInterval(shower);
       }
     };
-  }, [linkPreview, windowWidth, windowHeight, pixelOn]);
+  }, [linkPreview, windowWidth, windowHeight]);
 
   return <div ref={refPixel} className="filter-one"></div>;
 };

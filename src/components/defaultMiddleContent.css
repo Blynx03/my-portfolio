@@ -12,6 +12,7 @@
     "name"
     "desc"; */
   flex-direction: column;
+  background-color: transparent;
 }
 
 .greeting {
@@ -86,7 +87,7 @@
   display: flex;
   align-items: center;
   font-style: italic;
-  font-size: 2.5rem;
+  font-size: clamp(1.5rem, 3.5vw, 2.5rem);
   font-weight: 200;
   text-shadow: 0 0 1px black, 0 0 20px var(--blue-5);
   text-align: center;
@@ -101,7 +102,6 @@
 
   .my-description {
     bottom: 0%;
-    font-size: 3.5vw;
   }
 }
 
@@ -128,7 +128,6 @@
 
   .my-description {
     /* width: 80vw; */
-    font-size: clamp(1.2rem, 6vw, 2rem);
     align-items: flex-start;
     text-align: center;
     line-height: 50px;

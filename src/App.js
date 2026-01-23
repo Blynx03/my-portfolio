@@ -44,9 +44,6 @@ function App() {
       }}
     >
       <div className="main-container">
-        {/* <div className="background-container">
-          <FilterOne />
-        </div> */}
 
         <Content />
       </div>

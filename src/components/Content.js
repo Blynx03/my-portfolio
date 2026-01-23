@@ -1,11 +1,14 @@
 import React, { useEffect, useState, useContext, useRef } from "react";
 import FilterOne from "./FilterOne";
 import DefaultMiddleContent from "./DefaultMiddleContent";
-import Games from "../pages/Games";
+import MasterMindGame from "../pages/MasterMindGame";
+import Bubblitz from "../pages/Bubblitz";
+import BattleShip from "../pages/BattleShip";
 import AppleClone from "../pages/AppleClone";
 import WorldBankClone from "../pages/WorldBankClone";
 import Cp24 from "../pages/Cp24";
 import Nba from "../pages/Nba";
+import DartMaster from "../pages/DartMaster";
 import Nickel from "../pages/Nickel";
 import About from "../pages/About";
 import Resume from "../pages/Resume";
@@ -54,7 +57,6 @@ const Content = () => {
       borderRadius: "50%",
       color: "transparent",
       backgroundColor: "darkturquoise",
-      // backgroundColor: "white",
       animation: "spotlight 2000ms linear alternate",
     };
 
@@ -85,9 +87,9 @@ const Content = () => {
     if (linkPreview) {
       if (linkPreview.type.name !== "DefaultMiddleContent") {
         clearInterval(intervalId.current);
-        refMiddleContainer.current.style.overflowY = "scroll";
+        refMiddleContainer.current.style.overflowY = "auto";
       } else {
-        refMiddleContainer.current.style.overflow = "hidden";
+        refMiddleContainer.current.style.overflowY = "hidden";
       }
     }
 
@@ -99,7 +101,7 @@ const Content = () => {
     timeoutId.current = setTimeout(() => {
       changeGreeting();
       intervalId2.current = setInterval(changeGreeting, 4000);
-    }, 2000);
+    }, 2500);
 
     return () => {
       clearInterval(intervalId2.current);
@@ -123,8 +125,12 @@ const Content = () => {
         return <About />;
       case "silya":
         return <Silya value={value} />;
-      case "game":
-        return <Games value={value} />;
+      case "mastermind":
+        return <MasterMindGame value={value} />;
+      case "bubblitz":
+        return <Bubblitz value={value} />;
+      case "battleship":
+        return <BattleShip value={value} />;
       case "apple-clone":
         return <AppleClone value={value} />;
       case "worldbank-clone":
@@ -133,6 +139,8 @@ const Content = () => {
         return <Cp24 value={value} />;
       case "nba":
         return <Nba value={value} />;
+      case "dartmaster":
+        return <DartMaster value={value} />;
       case "nickel":
         return <Nickel value={value} />;
       case "home":
@@ -249,7 +257,6 @@ const Content = () => {
         <div
           ref={refProjectsContainer}
           className="projects-container"
-          // onClick={getMidContent}
           data-value="default"
         >
           <div className="projects">
@@ -265,14 +272,29 @@ const Content = () => {
             </ul>
           </div>
           <div className="projects" onClick={getMidContent} data-value="game">
-            Game
+            Games
             <ul className="sub-container">
               <li
                 className="mastermind sub"
                 onClick={getMidContent}
-                data-value="game"
+                data-value="mastermind"
               >
                 MasterMind
+              </li>
+              <li
+                className="bubblitz sub"
+                onClick={getMidContent}
+                data-value="bubblitz"
+              >
+                Bubblitz
+              </li>
+              <li
+                className="battleship sub"
+                onClick={getMidContent}
+                data-value="battleship"
+              >
+                BattleShip
+              <em style={{color: 'yellow'}}> - Under Construction</em>
               </li>
             </ul>
           </div>
@@ -310,7 +332,7 @@ const Content = () => {
                 CP24 Style
               </li>
               <li className="nba sub" onClick={getMidContent} data-value="nba">
-                NBA
+                NBA <em style={{color: 'yellow'}}> - API Deprecated</em>
               </li>
             </ul>
           </div>
@@ -322,6 +344,13 @@ const Content = () => {
           >
             Other React app
             <ul className="sub-container">
+              <li
+                className="dartmaster sub"
+                onClick={getMidContent}
+                data-value="dartmaster"
+              >
+                Dart Master Scorer
+              </li>
               <li
                 className="nickel sub"
                 onClick={getMidContent}

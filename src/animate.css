@@ -198,7 +198,7 @@
   }
   100% {
     color: purple;
-    transform: scale(1) rotate(-400deg);
+    transform: scale(0) rotate(-400deg);
     margin-left: 175px;
     margin-top: -120px;
     box-shadow: 0 0 100px black;
@@ -246,7 +246,7 @@
   }
   100% {
     color: yellow;
-    transform: scale(4) rotate(-500deg);
+    transform: scale(0) rotate(-500deg);
     margin-left: 200px;
     margin-top: 300px;
   }
@@ -270,7 +270,7 @@
   }
   100% {
     color: red;
-    transform: scale(1) rotate(1080deg);
+    transform: scale(0) rotate(1080deg);
     margin-left: -130px;
     margin-top: -200px;
   }
@@ -296,7 +296,7 @@
   }
   100% {
     color: white;
-    transform: scale(1) rotate(-560deg);
+    transform: scale(0) rotate(-560deg);
     margin-left: -110px;
     margin-top: 340px;
   }
@@ -378,7 +378,7 @@
   }
   100% {
     color: azure;
-    transform: scale(7) rotate(350deg);
+    transform: scale(0) rotate(350deg);
     margin-left: -225px;
     margin-top: 135px;
   }
@@ -406,7 +406,7 @@
   }
   100% {
     color: bisque;
-    transform: scale(7) rotate(400deg);
+    transform: scale(0) rotate(400deg);
     margin-left: -275px;
     margin-top: -115px;
   }
@@ -434,7 +434,7 @@
   }
   100% {
     color: bisque;
-    transform: scale(7) rotate(-800deg);
+    transform: scale(0) rotate(-800deg);
     margin-left: -375px;
     margin-top: 315px;
   }
@@ -462,7 +462,7 @@
   }
   100% {
     color: green;
-    transform: scale(7) rotate(750deg);
+    transform: scale(0) rotate(750deg);
     margin-left: -375px;
     margin-top: -315px;
   }

@@ -19,9 +19,17 @@ const LiveRepoLinks = ({ value }) => {
         repoUrl = "https://github.com/Blynx03/worldBank-clone";
         demoUrl = "https://blynx03.github.io/worldbank-clone/";
         break;
-      case "game":
+      case "mastermind":
         repoUrl = "https://github.com/Blynx03/mastermind-v3";
         demoUrl = "https://blynx03.github.io/mastermind-v3/";
+        break;
+      case "bubblitz":
+        repoUrl = "https://github.com/Blynx03/bubblitz";
+        demoUrl = "https://blynx03.github.io/bubblitz/";
+        break;
+      case "battleship":
+        repoUrl = "https://github.com/Blynx03/battleship";
+        demoUrl = "https://blynx03.github.io/battleship/";
         break;
       case "cp24":
         repoUrl = "https://github.com/Blynx03/react-cp24";
@@ -30,6 +38,10 @@ const LiveRepoLinks = ({ value }) => {
       case "nba":
         repoUrl = "https://github.com/Blynx03/api-demo";
         demoUrl = "https://blynx03.github.io/api-demo/";
+        break;
+      case "dartmaster":
+        repoUrl = "https://github.com/Blynx03/dart-master-scoreboard";
+        demoUrl = "https://blynx03.github.io/dart-master-scoreboard/";
         break;
       case "nickel":
         repoUrl = "https://github.com/Blynx03/nickel-react";
