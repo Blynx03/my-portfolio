@@ -239,7 +239,7 @@ const DartMaster = ({ value }) => {
       
       <section className='dm-section-container'>
         <div className='dm-section-header'>📄 License</div>
-        <p className='dm-section-description'>This project is open source under the <a className='dm-license' href=''>MIT License</a></p>
+        <p className='dm-section-description'>This project is open source under the <a className='dm-license' href='https://github.com/Blynx03/dart-master-scoreboard/blob/main/LICENSE'>MIT License</a></p>
       </section>
 
       <LiveRepoLinks value={value} />
