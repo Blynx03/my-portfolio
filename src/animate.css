@@ -519,7 +519,7 @@
     10% {
       color: tomato;
       z-index: 5;
-      right: 0;
+      right: 0px;
       top: 0;
     }
 

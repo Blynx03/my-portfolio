@@ -17,31 +17,30 @@ import Silya from "../pages/Silya";
 import "./content.css";
 import userContext from "./userContext";
 import generateRGB from "./generateRGB";
+import Rpsls from "../pages/Rpsls";
+import FoodPicker from "../pages/FoodPicker";
 
 const Content = () => {
   const clientContext = useContext(userContext);
-  const linkPreview = clientContext.linkPreview;
-  const setLinkPreview = clientContext.setLinkPreview;
-  let windowWidth = clientContext.windowWidth;
-  let setGreeting = clientContext.setGreeting;
-  let mouseCoordinates = clientContext.mouseCoordinates;
+  const { linkPreview, setLinkPreview, windowWidth, setGreeting, mouseCoordinates } = clientContext;
   const [isArrowUp, setIsArrowUp] = useState(false);
   let intervalId = useRef(null);
   let intervalId2 = useRef(null);
   let timeoutId = useRef(null);
-  const refProjectsContainer = useRef(null);
-  const refMiddleContainer = useRef(null);
-  const refMenuContainer = useRef(null);
-  const refSpotlight = useRef(null);
+  const projectsContainerRef = useRef(null);
+  const middleContainerRef = useRef(null);
+  const menuContainerRef = useRef(null);
+  const spotlightRef = useRef(null);
 
   const getMidContent = (e) => {
     const value = e.target.getAttribute("data-value");
 
     if (windowWidth <= 550) {
-      refProjectsContainer.current.style.visibility = "hidden";
-      refMenuContainer.current.style.visibility = "visible";
-      refMiddleContainer.current.style.visibility = "visible";
+      projectsContainerRef.current.style.visibility = "hidden";
+      menuContainerRef.current.style.visibility = "visible";
+      middleContainerRef.current.style.visibility = "visible";
     }
+    middleContainerRef.current.scrollTo({ top: 0, left: 0, behavior: 'smooth',})
     setLinkPreview(choice(value));
   };
 
@@ -87,9 +86,9 @@ const Content = () => {
     if (linkPreview) {
       if (linkPreview.type.name !== "DefaultMiddleContent") {
         clearInterval(intervalId.current);
-        refMiddleContainer.current.style.overflowY = "auto";
+        middleContainerRef.current.style.overflowY = "auto";
       } else {
-        refMiddleContainer.current.style.overflowY = "hidden";
+        middleContainerRef.current.style.overflowY = "hidden";
       }
     }
 
@@ -111,10 +110,10 @@ const Content = () => {
 
   useEffect(() => {
     if (
-      refProjectsContainer.current.style.visibility === "hidden" &&
-      refMenuContainer.current.style.visibility === "hidden"
+      projectsContainerRef.current.style.visibility === "hidden" &&
+      menuContainerRef.current.style.visibility === "hidden"
     ) {
-      refMiddleContainer.current.style.visibility = "visible";
+      middleContainerRef.current.style.visibility = "visible";
       setLinkPreview(<DefaultMiddleContent />);
     }
   }, [windowWidth, setLinkPreview]);
@@ -131,6 +130,8 @@ const Content = () => {
         return <Bubblitz value={value} />;
       case "battleship":
         return <BattleShip value={value} />;
+      case "rpsls":
+        return <Rpsls value={value} />;
       case "apple-clone":
         return <AppleClone value={value} />;
       case "worldbank-clone":
@@ -141,6 +142,8 @@ const Content = () => {
         return <Nba value={value} />;
       case "dartmaster":
         return <DartMaster value={value} />;
+      case "food-picker":
+        return <FoodPicker value={value} />;
       case "nickel":
         return <Nickel value={value} />;
       case "home":
@@ -162,18 +165,18 @@ const Content = () => {
       switch (value) {
         case "projects":
           setIsArrowUp(!isArrowUp);
-          refProjectsContainer.current.style.visibility =
-            refProjectsContainer.current.style.visibility === "visible"
+          projectsContainerRef.current.style.visibility =
+            projectsContainerRef.current.style.visibility === "visible"
               ? "hidden"
               : "visible";
-          refMenuContainer.current.style.visibility = "hidden";
+          menuContainerRef.current.style.visibility = "hidden";
           break;
         case "menu":
-          refMenuContainer.current.style.visibility =
-            refMenuContainer.current.style.visibility === "visible"
+          menuContainerRef.current.style.visibility =
+            menuContainerRef.current.style.visibility === "visible"
               ? "hidden"
               : "visible";
-          refProjectsContainer.current.style.visibility = "hidden";
+          projectsContainerRef.current.style.visibility = "hidden";
           break;
         default:
           return;
@@ -182,17 +185,17 @@ const Content = () => {
       switch (value) {
         case "projects":
           setIsArrowUp(!isArrowUp);
-          refProjectsContainer.current.style.visibility =
-            refProjectsContainer.current.style.visibility === "hidden"
+          projectsContainerRef.current.style.visibility =
+            projectsContainerRef.current.style.visibility === "hidden"
               ? "visible"
               : "hidden";
           break;
         case "menu":
-          refMenuContainer.current.style.visibility =
-            refMenuContainer.current.style.visibility === "visible"
+          menuContainerRef.current.style.visibility =
+            menuContainerRef.current.style.visibility === "visible"
               ? "hidden"
               : "visible";
-          refProjectsContainer.current.style.visibility = "hidden";
+          projectsContainerRef.current.style.visibility = "hidden";
           break;
         default:
           return;
@@ -202,12 +205,12 @@ const Content = () => {
 
   useEffect(() => {
     if (windowWidth > 1000) {
-      refProjectsContainer.current.style.visibility = "visible";
-      refMenuContainer.current.style.visibility = "visible";
+      projectsContainerRef.current.style.visibility = "visible";
+      menuContainerRef.current.style.visibility = "visible";
     }
     if (windowWidth >= 650 && windowWidth <= 1000) {
-      refMenuContainer.current.style.visibility = "hidden";
-      refProjectsContainer.current.style.visibility = "hidden";
+      menuContainerRef.current.style.visibility = "hidden";
+      projectsContainerRef.current.style.visibility = "hidden";
       document.querySelector(".menu-icon-container").style.display = "block";
     }
 
@@ -216,13 +219,13 @@ const Content = () => {
         .querySelectorAll(".sub-container")
         .forEach((el) => (el.style.display = "block"));
       document.querySelector(".menu-icon-container").style.display = "none";
-      refProjectsContainer.current.style.visibility = "hidden";
-      refMenuContainer.current.style.visibility = "visible";
+      projectsContainerRef.current.style.visibility = "hidden";
+      menuContainerRef.current.style.visibility = "visible";
     }
   }, [windowWidth]);
 
   return (
-    <div ref={refSpotlight} className="content-container">
+    <div ref={spotlightRef} className="content-container">
       <FilterOne />
       <div
         className="top-left-container"
@@ -255,7 +258,7 @@ const Content = () => {
         </div>
 
         <div
-          ref={refProjectsContainer}
+          ref={projectsContainerRef}
           className="projects-container"
           data-value="default"
         >
@@ -295,6 +298,13 @@ const Content = () => {
               >
                 BattleShip
               <em style={{color: 'yellow'}}> - Under Construction</em>
+              </li>
+              <li
+                className="rpsls sub"
+                onClick={getMidContent}
+                data-value="rpsls"
+              >
+                Rock Paper Scissors Lizard Spock
               </li>
             </ul>
           </div>
@@ -351,6 +361,13 @@ const Content = () => {
               >
                 Dart Master Scorer
               </li>
+               <li
+                className="foodpicker sub"
+                onClick={getMidContent}
+                data-value="food-picker"
+              >
+                Food Picker
+              </li>
               <li
                 className="nickel sub"
                 onClick={getMidContent}
@@ -362,8 +379,8 @@ const Content = () => {
           </div>
         </div>
       </div>
-
-      <div ref={refMiddleContainer} className="middle-container">
+{/* Middle Container */}
+      <div ref={middleContainerRef} className="middle-container">
         {linkPreview}
       </div>
       <div
@@ -380,7 +397,7 @@ const Content = () => {
             menu
           </span>
         </div>
-        <div ref={refMenuContainer} className="menu-container">
+        <div ref={menuContainerRef} className="menu-container">
           <div className="home" onClick={getMidContent} data-value="home">
             Home
           </div>

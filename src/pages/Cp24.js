@@ -66,6 +66,7 @@ const Cp24 = ({ value }) => {
           <li className='cp24-section-list'>Advertisement
             <ul className='cp24-section-sub-list-container'>
               <li className='cp24-section-sub-list'><strong>Advertisements:</strong>Display targeted advertisements to the users.</li>
+              <img src={cp24Ad} className='cp24-page-images' alt='advertisement' />
             </ul>
           </li>
           <li className='cp24-section-list'>Social Media Chat Simulation
@@ -104,6 +105,8 @@ const Cp24 = ({ value }) => {
       </section>
 
       <section className='cp24-section-container'>
+        <div className='cp24-section-header'>License</div>
+        <hr/>
         <p className='cp24-section-description'>This project is licensed under theMIT License - see the  <a className='cp24-license' href='https://github.com/Blynx03/react-cp24/blob/master/LICENSE'>LICENSE</a> file for details.</p>
       </section>
 

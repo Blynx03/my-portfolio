@@ -34,7 +34,7 @@ const Nba = ({ value }) => {
         <hr/>
         <div className="nba-section-description">To use this API, make HTTP requests to the following endpoints:</div>
         <ul className="nba-section-list-container">
-          <li className="nba-section-list"><code>fetch(https://www.balldontlie.io/api/v1/players)</code>: Retrieve a list of basketball teams and players information in json format.</li>
+          <li className="nba-section-list"><code>fetch(https://www.balldontlie.io/api/v1/players)</code> : Retrieve a list of basketball teams and players information in json format.</li>
         </ul>
       </section>
 

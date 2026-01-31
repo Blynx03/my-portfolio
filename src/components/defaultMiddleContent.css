@@ -42,7 +42,7 @@
 
 .name-shadow {
   margin-top: 20px;
-  filter: blur(9px);
+  filter: blur(12px);
   text-shadow: 0 -10px 150px var(--blue-6);
   transform: scaleY(-0.5);
 }
@@ -142,6 +142,13 @@
   }
 
   .name-shadow {
-    margin-top: -50px;
+    margin-top: -80px;
+    filter: blur(5px);
+  }
+
+  .shadow-i {
+  }
+  .my-description {
+    line-height: 30px;;
   }
 }

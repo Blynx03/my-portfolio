@@ -1,14 +1,11 @@
 import React from 'react';
+import battleshipTitle from '../images/battleship-title.png';
 import battleshipMainPage from '../images/battleship-mainpage.png';
 import battleshipHowToPage from '../images/battleship-howto.png';
 import battleshipSetupPage from '../images/battleship-setup.png';
 import battleshipBoardGamePage from '../images/battleship-board.png';
 import LiveRepoLinks from '../components/LiveRepoLinks';
 import '../pages/battleship.css';
-
-// type BattleshipProps = {
-//   value: any;
-// };
 
 const Battleship = ({ value }) => {
   return (
@@ -21,9 +18,10 @@ const Battleship = ({ value }) => {
       <div className='battleship-description-container'>
         <hr />
         <p>
-          <strong>Battleship</strong> is a browser-based strategy game built with a
+          <strong>Battleship</strong>is a browser-based strategy game built with a
           modern front-end stack.
         </p>
+        <img src={battleshipTitle} className='battleship-title-image' alt='battleship title' />
         <p>
           It challenges players to apply logic, memory, and deduction to locate
           and destroy enemy ships on a hidden grid.
@@ -101,20 +99,20 @@ const Battleship = ({ value }) => {
         <div className='battleship-section-header'>📸 Game Screenshots</div>
         <hr />
         <ul className='battleship-list-container battleship-page-images-container'>
-          <li><strong>Main Page</strong> — Game entry and introduction</li>
-          <img src={battleshipMainPage} alt='main-page' className='page-images' />
+          <li><strong>Main Page</strong>— Game entry and introduction</li>
+          <img src={battleshipMainPage} alt='main-page' className='battleship-page-images' />
 
-          <li><strong>How-To Page</strong> — Rules and gameplay explanation</li>
-          <img src={battleshipHowToPage} alt='how-to-page' className='page-images' />
+          <li><strong>How-To Page</strong>— Rules and gameplay explanation</li>
+          <img src={battleshipHowToPage} alt='how-to-page' className='battleship-page-images' />
 
-          <li><strong>Setup Page</strong> — Ship placement phase</li>
-          <img src={battleshipSetupPage} alt='setup-page' className='page-images' />
+          <li><strong>Setup Page</strong>— Ship placement phase</li>
+          <img src={battleshipSetupPage} alt='setup-page' className='battleship-page-images' />
 
-          <li><strong>Board Game Page</strong> — Active turn-based combat</li>
+          <li><strong>Board Game Page</strong>— Active turn-based combat</li>
           <img
             src={battleshipBoardGamePage}
             alt='board-game-page'
-            className='page-images'
+            className='battleship-page-images'
           />
         </ul>
       </div>

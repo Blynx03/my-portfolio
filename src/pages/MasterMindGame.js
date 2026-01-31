@@ -1,10 +1,11 @@
 import React from "react";
 import LiveRepoLinks from "../components/LiveRepoLinks";
 import "./mastermindGame.css";
-import mainPage from "../images/mm-mainpage.png"
-import howToPage from "../images/mm-how-to.png"
-import gamePage from "../images/mm-game.png"
-import unlockPage from "../images/mm-unlock-level.png"
+import mmTitle from "../images/mm-title.png";
+import mainPage from "../images/mm-mainpage.png";
+import howToPage from "../images/mm-how-to.png";
+import gamePage from "../images/mm-game.png";
+import unlockPage from "../images/mm-unlock-level.png";
 
 const MasterMindGame = ({ value }) => {
   return (
@@ -13,6 +14,7 @@ const MasterMindGame = ({ value }) => {
       <div className="mm-header-caption">- Order-based puzzle game testing logic and memory -</div>
       <hr/>
       <p>Welcome to the Mastermind Game! This program offers a fun and challenging experience as you attempt to crack the secret code. The game consists of different levels, each with its own set of rules and challenges.</p>
+      <img src={mmTitle} className="mm-title-image" alt="mastermind title" />
       <p>
         This interactive command-line program promises a delightful and intellectually stimulating experience as you embark on the journey to decipher the enigmatic code. The game is built using HTML, CSS, Vanilla JavaScript, and select libraries. Moreover, the game boasts a responsive design that seamlessly adapts to both portrait and landscape mobile orientations for a versatile gaming experience.
       </p>

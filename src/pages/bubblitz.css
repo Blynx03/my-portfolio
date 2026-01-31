@@ -8,9 +8,9 @@
 }
 
 .bubblitz-article-container .bubblitz-header {
-    font-size: clamp(1.4rem, 5.5vw, 3.8rem);
+    font-size: clamp(2rem, 5.5vw, 3.8rem);
     color: dodgerblue;
-    font-weight: 900;
+    font-weight: 800;
     text-align: center;
 }
 
@@ -21,10 +21,20 @@
 
 .bubblitz-description-container {
     margin-left: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .bubblitz-description-container p {
     padding: 0;
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
+}
+
+.bubblitz-title-image {
+    width: 80%;
+    justify-self: center;
+    margin: 30px 0;
+    box-shadow: 0 0 14px 4px #fff;
 }
 
 .bubblitz-section-container, .bubblitz-description-container {
@@ -42,6 +52,7 @@
 
 .bubblitz-section-description-container {
     padding: 0% 2% 2% 2%;
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
 }
 
 .bubblitz-section-description {
@@ -53,6 +64,10 @@
     font-size: clamp(1.1rem, 4vw, 1.4rem);
 }
 
+.bubblitz-section-sub-header {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
 .bubblitz-list-header {
     justify-self: flex-start;
     font-weight: bold;
@@ -62,9 +77,14 @@
 .bubblitz-list-container {
     width: 100%;
     padding: 1% 10%;
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
     display: flex;
     flex-direction: column;
     gap: 4px;
+}
+
+.bubblitz-list-container > li {
+    margin-bottom: 10px;
 }
 
 .bubblitz-sub-list-container {
@@ -80,8 +100,11 @@ hr {
 
 em {
     display:inline;
+    font-weight: bold;
 }
 
-img {
-    margin: 6px 0 20px;
+.bubblitz-page-images-container > img {
+    width: 100%;
+    margin: 6px 0 50px;
+    box-shadow: 0 0 14px 4px #fff;
 }

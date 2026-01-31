@@ -1,6 +1,7 @@
 import React from "react";
 import "./silya.css";
 import LiveRepoLinks from "../components/LiveRepoLinks";
+import silyaTitle from "../images/silya-title.png";
 import silyaHome from "../images/silya-home.png";
 import silyaGallery from "../images/silya-gallery.png";
 import silyaContact from "../images/silya-contact.png";
@@ -23,6 +24,7 @@ const Silya = ({ value }) => {
           viewed feature, product details, checkout and payment process.
           Responsive design for a seamless user experience across devices.
         </p>
+        <img src={silyaTitle} className='silya-title-image' alt="silya title" />
         <p className="silya-project-description">
           Silya, showcases my expertise in a powerful
           blend of cutting-edge technologies. Crafted with proficiency in

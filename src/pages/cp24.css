@@ -10,9 +10,9 @@
 } 
 
 .cp24-header {
-  font-size: clamp(1.4rem, 5.5vw, 3.8rem);
+  font-size: clamp(1.6rem, 5.5vw, 3.8rem);
   color: dodgerblue;
-  font-weight: 900;
+  font-weight: 800;
   text-align: center;
 }
 
@@ -36,20 +36,15 @@ hr {
 
 .cp24-section-description {
   padding: 2% 1%;
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
 }
 
 .cp24-section-header {
   letter-spacing: 2px;
   font-size: clamp(1.2rem, 5vw, 2rem);
   background-color: rgba(255, 255, 255, 0.1);
-  padding-left: 2%;
+  padding-left: 3%;
   border-radius: 10px 10px 0 0;
-}
-
-.cp24-page-images {
-  width: 100%;
-  margin: 30px 0 50px;
-  box-shadow: 0 0 10px 10px white;
 }
 
 .cp24-section-sub-header {
@@ -68,17 +63,25 @@ hr {
 }
 
 .cp24-section-list {
-  font-weight: 200;
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
 }
 
 .cp24-section-sub-list-container {
   margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cp24-page-images {
+  width: 80%;
+  margin: 30px 0 50px;
+  box-shadow: 0 0 14px 4px #fff;
+  align-items: center;
 }
 
 .cp24-section-sub-list {
-  font-weight: 200;
   margin-top: 10px;
-  font-size: clamp(1rem, 3vw, 1.2rem);
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
 }
 
 strong {
@@ -104,4 +107,14 @@ section:first-of-type > ol:first-of-type > li {
 
 em {
   font-weight: normal;
+}
+
+@media screen and (max-width: 650px) {
+  .cp24-header-caption {
+    margin-bottom: 8px;
+  }
+
+  .cp24-page-images {
+    margin: 30px 0;
+  }
 }

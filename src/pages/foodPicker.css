@@ -1,4 +1,4 @@
-.nickel-article-container {
+.foodpicker-article-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,71 +7,72 @@
     position: relative;
 }
 
-.nickel-article-container .nickel-header {
-    font-size: clamp(2rem, 5.5vw, 3.8rem);
+.foodpicker-article-container .foodpicker-header {
+    font-size: clamp(1.4rem, 5.5vw, 3.5rem);
     color: dodgerblue;
     font-weight: 800;
     text-align: center;
 }
 
-.nickel-header-caption {
+.foodpicker-header-caption {
     font-size: clamp(0.7rem, 2.5vw, 1.6rem);
     letter-spacing: 2px;
 }
 
-.nickel-description-container {
+.foodpicker-description-container {
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
 }
 
-.nickel-description-container p {
-    padding: 1% 3%;
-    font-size: clamp(0.9rem, 2vw, 1.1rem);
+.foodpicker-description-container p {
+    padding: 2% 5%;
     margin: 0;
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
 }
 
-.nickel-title-image {
-    width: 80%;
+.foodpicker-title-image {
+    width: 50%;
     justify-self: center;
     margin: 30px 0;
     box-shadow: 0 0 14px 4px #fff;
 }
 
-.nickel-section-container, .nickel-description-container {
+.foodpicker-section-container, .foodpicker-description-container {
+    padding: 2%;
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.nickel-section-header {
+.foodpicker-section-header {
     letter-spacing: 2px;
     font-size: clamp(1.2rem, 5vw, 1.8rem);
     background-color: rgba(255, 255, 255, 0.1);
     padding-left: 2%;
     border-radius: 10px 10px 0 0;
-    margin-top: 50px;
 }
 
-.nickel-section-description-container {
+.foodpicker-section-description-container {
     padding: 0% 2% 2% 2%;
 }
 
-.nickel-section-description {
+.foodpicker-section-description {
     padding: 1% 2%;
     width: 100%;
 }
 
-.nickel-sub-header {
+.foodpicker-sub-header {
     font-size: clamp(1.1rem, 4vw, 1.4rem);
 }
 
-.nickel-list-header {
+.foodpicker-list-header {
     justify-self: flex-start;
     font-weight: bold;
     padding: 1% 3%;
 }
 
-.nickel-list-container {
+.foodpicker-list-container {
     width: 100%;
     padding: 1% 10%;
     display: flex;
@@ -79,12 +80,12 @@
     gap: 4px;
 }
 
-.nickel-list-container > li {
+.foodpicker-list-container > li {
     margin-bottom: 10px;
-    font-size: clamp(0.9rem, 2vw, 1.1rem);
+    font-size: clamp(1rem, 2vw, 1.2rem);
 }
 
-.nickel-sub-list-container {
+.foodpicker-sub-list-container {
     margin-left: 5%;
 }
 
@@ -100,31 +101,24 @@ em {
     font-weight: bold;
 }
 
-.nickel-page-image {
-    width: 80%;
-    margin: 6px 0 50px;
+.foodpicker-page-images {
+    width: 60%;
+    margin: 30px 0 80px;
     box-shadow: 0 0 14px 4px #fff;
-    
 }
 
-.nickel-auth-images {
+.foodpicker-auth-images {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.nickel-auth-images > .nickel-page-image {
+.foodpicker-auth-images > .foodpicker-page-image {
   width: 50%;
 }
 
 @media screen and (max-width: 650px) {
-  .nickel-header-caption {
-    letter-spacing: 0;
-    margin-bottom: 4px;
-  }
-
-  .nickel-section-header {
-    letter-spacing: 0;
-    margin-top: 20px;
+  .foodpicker-header-caption {
+    letter-spacing: 2px;
   }
 }

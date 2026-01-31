@@ -31,6 +31,10 @@ const LiveRepoLinks = ({ value }) => {
         repoUrl = "https://github.com/Blynx03/battleship";
         demoUrl = "https://blynx03.github.io/battleship/";
         break;
+      case "rpsls":
+        repoUrl = "https://github.com/Blynx03/rock-paper-scissors-lizard-spock";
+        demoUrl = "https://blynx03.github.io/rock-paper-scissors-lizard-spock/";
+        break;
       case "cp24":
         repoUrl = "https://github.com/Blynx03/react-cp24";
         demoUrl = "https://blynx03.github.io/react-cp24/";
@@ -46,6 +50,10 @@ const LiveRepoLinks = ({ value }) => {
       case "nickel":
         repoUrl = "https://github.com/Blynx03/nickel-react";
         demoUrl = "https://blynx03.github.io/nickel-react/";
+        break;
+      case "food-picker":
+        repoUrl = "https://github.com/Blynx03/food-picker";
+        demoUrl = "https://blynx03.github.io/food-picker/";
         break;
       case "repositories":
         repoUrl = "";

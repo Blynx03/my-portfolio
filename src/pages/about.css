@@ -22,8 +22,7 @@
 }
 
 p {
-  font-weight: 200;
-  font-size: 1.2rem;
+  font-size: clamp(1rem, 2vw, 1.2rem);
   letter-spacing: 0.5px;
   text-shadow: -2px 2px black, 0 0 5px black;
   padding: 0 4% 30px;
@@ -44,7 +43,6 @@ p {
     font-size: 1rem;
     margin: 10px;
     font-family: var(--roboto);
-    font-weight: 300;
   }
 
   .last-note {

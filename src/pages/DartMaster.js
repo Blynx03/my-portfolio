@@ -1,4 +1,5 @@
 import './dartmaster.css'
+import dmTitle from '../images/dm-title.png';
 import dmMain from '../images/dm-main.png';
 import dmStructure from '../images/dm-structure.png';
 import dmBoardRules from '../images/dm-boardrules.png';
@@ -12,12 +13,13 @@ import LiveRepoLinks from "../components/LiveRepoLinks";
 const DartMaster = ({ value }) => {
   return (
     <article className="dm-article-container">
-      <div className="dm-header">🎯 DartMaster Scoreboard</div>
+      <div className="dm-header">DartMaster Scoreboard</div>
       <div className="dm-header-caption">– A Modern Scoreboard App for Tactics/Cricket Dart Games –</div>
       <hr/>
       <p className="dm-section-description">
         DartMaster Scoreboard is a fully interactive, responsive, and intuitive scoreboard application built specifically for the <strong>Tactics/Cricket dart game variant.</strong>
       </p>
+      <img src={dmTitle} className='dm-title-image' alt='dart-master title' />
       <p className='dm-section-description'>This project demonstrates clean front-end engineering practices using <strong>React, TypeScript, Context API, React Router,</strong> structured component logic, and responsive UI/UX design.
         It will also be deployed on <strong>GitHub Pages</strong> so players can try it online.</p>
       
@@ -49,7 +51,7 @@ const DartMaster = ({ value }) => {
             </ul>
           </li>
         </ul>
-        <p className='dm-section-descriptioin'>Additional behaviors:</p>
+        <p className='dm-section-description'>Additional behaviors:</p>
         <ul className='dm-section-list-container'>
           <li className="dm-section-list">The <strong>Start Game</strong> button appears only when all fields are valid</li>
           <li className="dm-section-list">A <strong>Main Page</strong> button lets players return anytime</li>
@@ -86,7 +88,7 @@ const DartMaster = ({ value }) => {
         <hr/>
         <p className="dm-section-description">A player wins when every target in their column reaches <strong>3 (|||).</strong></p>
         <p className="dm-section-description">Winner detection logic:</p>
-        <div className='dm-section-item'>Object.values(player.numberScores!).every(val =&gt; val === 3)</div>
+        <div className='dm-section-item'><code>Object.values(player.numberScores!).every(val =&gt; val === 3)</code></div>
         <p className='dm-section-description'>When a player wins, a modal offers:</p>
         <ol className='dm-section-list-container'>
           <li className="dm-section-list">Play Another Round
@@ -147,7 +149,7 @@ const DartMaster = ({ value }) => {
               <li className="dm-sub-section-list">Context structure</li>
               <li className="dm-sub-section-list">Components props</li>
               <li className="dm-sub-section-list">Scoring objects (<code>Record&lt;number, number&gt;</code>)</li>
-            <p className="dm-section-description">Prevents undefined values and runtime bugs.</p>
+              <p className="dm-sub-section-list-description">Prevents undefined values and runtime bugs.</p>
             </ul>
           </li>
           <li className="dm-section-list">🧭 react-router-dom
@@ -211,17 +213,17 @@ const DartMaster = ({ value }) => {
         <div className='dm-section-header'>🏁 Running the Project</div>
         <hr/>
         <p className='dm-section-description'>Install dependencies:</p>
-        <div className='dm-section-description-illustration'>npm install</div>
+        <div className='dm-section-description-illustration'><code>npm install</code></div>
         <p className='dm-section-description'>Run locally:</p>
-        <div className='dm-section-description-illustration'>npm run dev</div>        
+        <div className='dm-section-description-illustration'><code>npm run dev</code></div>        
         <p className='dm-section-description'>Build for production:</p>
-        <div className='dm-section-description-illustration'>npm run build</div>
+        <div className='dm-section-description-illustration'><code>npm run build</code></div>
       </section>
 
       <section className='dm-section-container'>
         <div className='dm-section-header'>🌐 Live Demo</div>
         <hr/>
-        <p className='dm-section-description'>(<a href='https://blynx03.github.io/dart-master-scoreboard/'>https://blynx03.github.io/dart-master-scoreboard/</a>)</p>
+        <p className='dm-section-description'><a href='https://blynx03.github.io/dart-master-scoreboard/'>Dart Master Scoreboard</a></p>
       </section>  
       
       <section className='dm-section-container'>

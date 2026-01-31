@@ -1,4 +1,5 @@
 import React from 'react'
+import bubblitzTitle from '../images/bubblitz-title.png';
 import bubblitzHomePage from '../images/bubblitz-main-page.png';
 import bubblitzHowToPage from '../images/bubblitz-how-to.png';
 import bubblitzPlayPage from '../images/bubblitz-play-page.png';
@@ -12,8 +13,9 @@ const Bubblitz = ({ value }) => {
       <div className='bubblitz-header-caption'> - A Timed Reflex & Focus Number Game -</div>
       <div className='bubblitz-description-container'>
         <hr/>
-        <p><strong>Bubblitz</strong> is a fast-paced, browser-based game built with a modern front-end stack.</p>
+        <p><strong>Bubblitz</strong>is a fast-paced, browser-based game built with a modern front-end stack.</p>
         <p>It challenges players to maintain focus, speed, and accuracy while reacting to increasingly complex visual behaviors — all under time pressure.</p>
+        <img src={bubblitzTitle} className='bubblitz-title-image' alt='bubblitz title' />
         <p>Designed and engineered as a <strong>scalable, animation-heavy React application</strong>, Bubblitz showcases advanced front-end architecture, state management, and performance-driven animation techniques.</p>
       {/* <hr/> */}
       </div>
@@ -137,11 +139,11 @@ const Bubblitz = ({ value }) => {
         <div className='bubblitz-section-header'>📸 Game Screenshots</div>
         <hr/>
         <ul className='bubblitz-list-container bubblitz-page-images-container'>
-          <li><strong>Main Page</strong> - Landing screen and theme presentation</li>
+          <li>Main Page -- <em>Landing screen and theme presentation</em></li>
           <img src={bubblitzHomePage} alt='home-page' className='page-images' />
-          <li><strong>How-To-Play-Page</strong> -- Clear instructions and gameplay rules</li>
+          <li>How-To-Play-Page -- <em>Clear instructions and gameplay rules</em></li>
           <img src={bubblitzHowToPage} alt='how-to-page' className='page-images' />
-          <li><strong>Play Page </strong> -- Live gameplay area with animations, timer, and HUD</li>
+          <li>Play Page -- <em>Live gameplay area with animations, timer, and HUD</em></li>
           <img src={bubblitzPlayPage} alt='play-page' className='page-images' />
         </ul>
       {/* <hr/> */}
@@ -152,10 +154,10 @@ const Bubblitz = ({ value }) => {
         <hr/>
         <p className='bubblitz-section-description'>This project was built to:</p>
         <ul className='bubblitz-list-container'>
-          <li>Demonstrate<strong>advanced front-end engineering skills</strong></li>
-          <li>Explore <strong>real-time animation systems</strong> in React</li>
-          <li>Apply <strong>TypeScript for complex game state modeling</strong></li>
-          <li>Build a <strong>non-trivial, scalable interactive application</strong></li>
+          <li>Demonstrate <em>advanced front-end engineering skills</em></li>
+          <li>Explore <em>real-time animation systems</em> in React</li>
+          <li>Apply <em>TypeScript for complex game state modeling</em></li>
+          <li>Build a <em>non-trivial, scalable interactive application</em></li>
           <li>Showcase clean, production-ready front-end architecture</li>
         </ul>
       {/* <hr/> */}
@@ -181,7 +183,7 @@ const Bubblitz = ({ value }) => {
         <hr/>
         <ul className='bubblitz-list-container'>
           <li>🏆 Scoring system & leaderboards</li>
-          <li>Explore <strong>real-time animation systems</strong> in React</li>
+          <li>Explore <em>real-time animation systems</em> in React</li>
           <li>📱 Mobile & touch gesture support</li>
           <li>⚙️ Difficulty presets</li>
           <li>♿ Accessibility options</li>
