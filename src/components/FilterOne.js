@@ -5,16 +5,15 @@ import generateRGB from "./generateRGB";
 import userContext from "./userContext";
 
 const FilterOne = () => {
-  const clientContext = useContext(userContext);
-  const windowHeight = clientContext.windowHeight;
-  const windowWidth = clientContext.windowWidth;
-  const linkPreview = clientContext.linkPreview;
-  const pixelOn = true;
-  const [ isPixelOn, setIsPixelOn ] = useState(false);
-  const refPixel = useRef();
+  const { windowHeight, windowWidth, linkPreview } = useContext(userContext);
+  const refPixel = useRef(null);
 
   useEffect(() => {
-    let shower = setInterval(() => {
+    if (!refPixel.current) return;
+
+    const intervalId = setInterval(() => {
+      if (!refPixel.current) return;
+      
       const pixelEl = document.createElement("div");
 
       // if (refPixel || (refPixel.current.contains(pixelEl) && pixelEl)) {
@@ -48,23 +47,24 @@ const FilterOne = () => {
         },
       ];
 
-      if (style < 1) {
+      if (style === 0) {
         pixelEl.innerText = ".";
       }
       Object.assign(pixelEl.style, stylePixel[style]);
-      if (refPixel && !isPixelOn) {
-        setIsPixelOn(true);
-        refPixel.current.appendChild(pixelEl);
-        setTimeout(() => {
+
+      refPixel.current.appendChild(pixelEl);
+
+      setTimeout(() => {
+        if (refPixel.current?.contains(pixelEl)) {
           refPixel.current.removeChild(pixelEl);
-        }, 4000);
-      }
+        }
+      }, 8000);
     }, 2000);
+
+    // shower();
+
     return () => {
-      if (!pixelOn) {
-        setIsPixelOn(false);
-        clearInterval(shower);
-      }
+      clearInterval(intervalId);
     };
   }, [linkPreview, windowWidth, windowHeight]);
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext, useRef } from "react";
+import { useEffect, useState, useContext, useRef } from "react";
 import FilterOne from "./FilterOne";
 import DefaultMiddleContent from "./DefaultMiddleContent";
 import MasterMindGame from "../pages/MasterMindGame";
@@ -99,8 +99,8 @@ const Content = () => {
     };
     timeoutId.current = setTimeout(() => {
       changeGreeting();
-      intervalId2.current = setInterval(changeGreeting, 4000);
-    }, 2500);
+      intervalId2.current = setInterval(changeGreeting, 3950);
+    }, 2550);
 
     return () => {
       clearInterval(intervalId2.current);
@@ -297,7 +297,7 @@ const Content = () => {
                 data-value="battleship"
               >
                 BattleShip
-              <em style={{color: 'yellow'}}> - Under Construction</em>
+              <em style={{color: 'yellow'}} onClick={getMidContent} data-value="battleship"> - Under Construction</em>
               </li>
               <li
                 className="rpsls sub"

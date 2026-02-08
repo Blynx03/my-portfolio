@@ -1,12 +1,16 @@
-.resume-container {
-  width: 100%;
+.resume-article-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 20;
+  justify-content: flex-start;
+  /* width: 100%; */
   height: 100%;
-  overflow: scroll;
-  z-index: 10;
-  /* padding-bottom: 30%; */
+  position: relative;
 }
 
 .resume-iframe {
+  position: relative;
   width: 100%;
   height: 100%;
 }
@@ -16,7 +20,8 @@
   display: flex;
   justify-content: center;
   bottom: 0;
-  padding: 6%;
+  width: 100%;
+  padding: 3% 0;
   background-color: hsla(0, 0%, 0%, 0.5);
   z-index: 25;
 }
@@ -24,7 +29,7 @@
 .resume-link {
   color: hsla(100, 100%, 100%, 0.7);
   padding: 2% 4%;
-  width: 180px;
+  width: clamp(180px, 15vw, 250px);
   height: 24px;
   border-radius: 20px;
   background: hsla(210, 100%, 56%, 0.7);
@@ -32,12 +37,12 @@
   align-items: center;
   justify-content: center;
   font-family: var(--montserrat);
-  font-size: 1.2rem;
+  font-size: clamp(0.9rem, 2vw, 1.2rem);
+  transition: color 0.35s ease;
 }
 
 .resume-link:hover {
   cursor: pointer;
   background: hsla(100, 100%, 100%, 0.7);
   color: hsla(0, 0%, 0%, 0.85);
-  font-size: 1.25rem;
 }

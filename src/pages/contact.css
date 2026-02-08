@@ -93,6 +93,7 @@
   font-weight: 300;
   position: absolute;
   bottom: 20px;
+  z-index: 20;
 }
 
 .email-container,
@@ -104,6 +105,17 @@
 .contact-email,
 .contact-tel {
   color: dodgerblue;
+}
+
+.contact-email-address {
+  color: dodgerblue;
+  transition: color 0.1s ease;
+}
+
+.contact-email-address:hover {
+  color: rgb(109, 181, 254);
+  font-weight: 600;
+  cursor: pointer;
 }
 
 @media (max-width: 1000px) {

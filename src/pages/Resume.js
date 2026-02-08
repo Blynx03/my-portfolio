@@ -1,16 +1,16 @@
-import React from "react";
 import "./resume.css";
+import resume from "../images/CRC-resume2026.pdf"
 
 const Resume = () => {
   function viewPDF() {
-    window.open("images/CRC-resume2025.pdf", "_blank");
+    window.open(resume, "_blank");
   }
 
   return (
-    <div className="resume-container">
+    <article className="resume-article-container">
       <iframe
         title="My CV"
-        src="images/CRC-resume2025.pdf"
+        src={resume}
         frameBorder="0"
         className="resume-iframe"
       />
@@ -19,7 +19,7 @@ const Resume = () => {
           View PDF
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 

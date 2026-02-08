@@ -1,15 +1,24 @@
-import React from "react";
+import { useEffect, useState } from "react";
 import { useContext } from "react";
 import "./defaultMiddleContent.css";
 import userContext from "./userContext";
+import generateRGB from "./generateRGB";
 
 const DefaultMiddleContent = () => {
   const clientContext = useContext(userContext);
+  const [ greetingColor, setGreetingColor ] = useState();
   const greeting = clientContext.greeting;
+
+  useEffect(() => {
+    let { colorR, colorG, colorB } = generateRGB();
+    // let greetingColor = `color: rgb(${colorR}, ${colorG}, ${colorB})`
+    setGreetingColor(`rgba(${colorR}, ${colorG}, ${colorB}, 0.6)`);
+  },[greeting])
+
 
   return (
     <div className="name-section-container">
-      <div className="greeting">{greeting}</div>
+      <div className="greeting" style={{color: greetingColor}}>{greeting}</div>
       <div className="name">
         <span className="letter-c">C</span>
         <span className="letter-h">H</span>

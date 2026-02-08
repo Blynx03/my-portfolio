@@ -12,7 +12,7 @@ const generateRGB = () => {
   if (colorB < 51) {
     colorB += 50;
   }
-  return { colorR: colorR, colorG: colorG, colorB: colorB };
+  return { colorR, colorG, colorB };
 };
 
 export default generateRGB;
