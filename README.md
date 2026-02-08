@@ -72,6 +72,8 @@ A fast-paced reflex and focus game that challenges players through number recogn
 
 - **Tech:** React, TypeScript, JavaScript, CSS  
 - [Repository](https://github.com/Blynx03/bubblitz)
+- [Live Site](https://blynx03.github.io/bubblitz/)
+
 
 ---
 
@@ -83,6 +85,7 @@ A digital recreation of the classic Battleship game, focusing on turn-based logi
 
 - **Tech:** React, JavaScript, CSS  
 - [Repository](https://github.com/Blynx03/battleship)
+- [Live Site](https://blynx03.github.io/battleship/)
 
 ---
 
@@ -94,6 +97,8 @@ An expanded version of Rock-Paper-Scissors implementing additional game logic wi
 
 - **Tech:** React, JavaScript, CSS  
 - [Repository](https://github.com/Blynx03/rock-paper-scissors-lizard-spock)
+- [Live Site](https://blynx03.github.io/rock-paper-scissors-lizard-spock/)
+
 
 ---
 
@@ -161,6 +166,7 @@ A digital dart scoreboard designed to replace chalkboards or markers during live
 
 - **Tech:** React, JavaScript, CSS  
 - [Repository](https://github.com/Blynx03/dart-master-scorer)
+- [Live Site](https://blynx03.github.io/dart-master-scorer/)
 
 ---
 
@@ -172,6 +178,7 @@ A mobile-first decision-making app that spins a wheel to randomly select food ch
 
 - **Tech:** React, JavaScript, CSS  
 - [Repository](https://github.com/Blynx03/food-picker)
+- [Live Site](https://blynx03.github.io/food-picker/)
 
 ---
 
