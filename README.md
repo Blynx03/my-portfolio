@@ -3,14 +3,14 @@
 Welcome to my portfolio 👋  
 Here you can learn more about me, explore my projects, view my resume, and get in touch.
 
-![Portfolio Screenshot](/portfolio-main.png)
+![Portfolio Screenshot](/src/images/portfolio-main.png)
 
 ---
 
 ## About Me
 
 I am a **Web Developer** with a passion for creating interactive and engaging web experiences.  
-I work primarily with **HTML, CSS, JavaScript, and React**, and I am actively improving my skills in **TypeScript** and modern frontend tooling.
+I work primarily with **HTML, CSS, JavaScript, TypeScript and React**, and I am actively improving my skills in modern frontend tooling.
 
 My long-term goal is to become a **full-stack developer**, exploring backend technologies such as **Node.js, SQL, Python, and Ruby on Rails**, depending on industry needs.
 
@@ -24,9 +24,11 @@ Most projects are built using:
 - CSS3  
 - JavaScript (ES6+)  
 - React  
-- TypeScript (selected projects)  
+- TypeScript
 - REST APIs  
-- Git & GitHub  
+- Git & GitHub
+- Bootstrap
+- Material UI  
 
 ---
 
@@ -36,7 +38,7 @@ Most projects are built using:
 
 ### Silya — All About Chairs
 
-![Silya Screenshot](/silya-home.png)
+![Silya Screenshot](/src/images/silya-home.png)
 
 A full front-end e-commerce website focused on selling chairs.  
 Includes a landing page, product listings, authentication UI, contact form, and checkout flow.
@@ -51,7 +53,7 @@ Includes a landing page, product listings, authentication UI, contact form, and 
 
 ### MasterMind
 
-![MasterMind Screenshot](/mm-game.png)
+![MasterMind Screenshot](/src/images/mm-mainpage.png)
 
 A logic-based code-breaking game with multiple difficulty levels.  
 Designed to be mobile-responsive in both portrait and landscape modes.
@@ -64,7 +66,7 @@ Designed to be mobile-responsive in both portrait and landscape modes.
 
 ### Bubblitz
 
-![Bubblitz Screenshot](/bubblitz-main.png)
+![Bubblitz Screenshot](/src/images/bubblitz-main-page.png)
 
 A fast-paced reflex and focus game that challenges players through number recognition and timing.
 
@@ -75,7 +77,7 @@ A fast-paced reflex and focus game that challenges players through number recogn
 
 ### Battleship *(Under Construction)*
 
-![Battleship Screenshot](/battleship-main.png)
+![Battleship Screenshot](/src/images/battleship-mainpage.png)
 
 A digital recreation of the classic Battleship game, focusing on turn-based logic and UI state management.
 
@@ -86,7 +88,7 @@ A digital recreation of the classic Battleship game, focusing on turn-based logi
 
 ### Rock Paper Scissors Lizard Spock
 
-![RPSLS Screenshot](/rpsls-main.png)
+![RPSLS Screenshot](/src/images/rpsls-mainPage.png)
 
 An expanded version of Rock-Paper-Scissors implementing additional game logic with Lizard and Spock.
 
@@ -99,7 +101,7 @@ An expanded version of Rock-Paper-Scissors implementing additional game logic wi
 
 ### Apple Website — Clone
 
-![Apple Screenshot](/apple-main.png)
+![Apple Screenshot](/src/images/apple-main.png)
 
 A responsive clone of Apple’s homepage created to demonstrate layout precision and UI replication.  
 All links point to their real Apple counterparts.
@@ -112,7 +114,7 @@ All links point to their real Apple counterparts.
 
 ### World Bank Website — Clone
 
-![World Bank Screenshot](/worldbank-main.png)
+![World Bank Screenshot](/src/images/worldbank-main.png)
 
 A static layout clone of the World Bank homepage, focused on responsive structure and visual accuracy.
 
@@ -126,7 +128,7 @@ A static layout clone of the World Bank homepage, focused on responsive structur
 
 ### CP24-Style Dashboard
 
-![CP24 Screenshot](/cp24-main.png)
+![CP24 Screenshot](/src/images/cp24-main.png)
 
 A React-based dashboard inspired by the CP24 news format, designed for desktop viewing and structured data presentation.
 
@@ -138,7 +140,7 @@ A React-based dashboard inspired by the CP24 news format, designed for desktop v
 
 ### NBA API Demo *(API Deprecated)*
 
-![NBA API Screenshot](/nba-main.png)
+![NBA API Screenshot](/src/images/nba-main.png)
 
 A REST API demo that retrieves basketball teams and player information.  
 The API is currently deprecated but remains as a demo project.
@@ -153,7 +155,7 @@ The API is currently deprecated but remains as a demo project.
 
 ### Dart Master Scorer
 
-![Dart Scorer Screenshot](/dart-master-main.png)
+![Dart Scorer Screenshot](/src/images/dm-main.png)
 
 A digital dart scoreboard designed to replace chalkboards or markers during live dart matches.
 
@@ -164,7 +166,7 @@ A digital dart scoreboard designed to replace chalkboards or markers during live
 
 ### Food Picker
 
-![Food Picker Screenshot](/food-picker-main.png)
+![Food Picker Screenshot](/src/images/fpicker-main.png)
 
 A mobile-first decision-making app that spins a wheel to randomly select food choices.
 
@@ -175,7 +177,7 @@ A mobile-first decision-making app that spins a wheel to randomly select food ch
 
 ### 15-Point Nickel — Allergy Monitoring App
 
-![Nickel App Screenshot](/nickel-main.png)
+![Nickel App Screenshot](/src/images/nickel-main.png)
 
 An interactive app designed to help people with nickel allergies track daily nickel intake using a point-based system.
 
@@ -187,8 +189,8 @@ An interactive app designed to help people with nickel allergies track daily nic
 
 ## Resume & Certificates
 
-- 📄 [Resume](/CRC-resume2024.pdf)  
-- 🎓 [Web Development Certificate](/WebCertificate.pdf)
+- 📄 [Resume](/src/images/CRC-resume2026.pdf)  
+- 🎓 [Web Development Certificate](/src/images/WebCertificate.pdf)
 
 ---
 
@@ -201,4 +203,4 @@ https://blynx03.github.io/my-portfolio/
 
 ---
 
-This portfolio is proudly built using **HTML, CSS, JavaScript, and React** 🚀
+This portfolio is proudly built using **HTML, CSS, JavaScript, TypeScript and React** 🚀
