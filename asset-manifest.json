@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.a452b4b8.css",
-    "main.js": "/my-portfolio/static/js/main.724a9a55.js",
+    "main.css": "/my-portfolio/static/css/main.812af4c3.css",
+    "main.js": "/my-portfolio/static/js/main.8cb1bf1b.js",
     "static/media/apple-carousel.png": "/my-portfolio/static/media/apple-carousel.0078f5f11b70db282272.png",
     "static/media/cp24-main.png": "/my-portfolio/static/media/cp24-main.59f6c72deac0477e4a32.png",
     "static/media/cp24-youtube.png": "/my-portfolio/static/media/cp24-youtube.f46b24823b8ffd5e17c6.png",
@@ -42,6 +42,7 @@
     "static/media/dm-winner.png": "/my-portfolio/static/media/dm-winner.ba079ae392949abde8b0.png",
     "static/media/battleship-board.png": "/my-portfolio/static/media/battleship-board.6223bdfb3e3d29645901.png",
     "static/media/silya-contact.png": "/my-portfolio/static/media/silya-contact.a149145a6139dc0778da.png",
+    "static/media/CRC-resume2026.pdf": "/my-portfolio/static/media/CRC-resume2026.04b424c7a022718edfa7.pdf",
     "static/media/rpsls-mainPage.png": "/my-portfolio/static/media/rpsls-mainPage.13e0b5d9690e28165c4a.png",
     "static/media/dm-boardrules.png": "/my-portfolio/static/media/dm-boardrules.cf23d22d6df3d43a52f6.png",
     "static/media/apple-links.png": "/my-portfolio/static/media/apple-links.b3c2a4abc61b8220fd31.png",
@@ -73,11 +74,11 @@
     "static/media/fpicker-spin-zone.png": "/my-portfolio/static/media/fpicker-spin-zone.622dda98ff8fb875208b.png",
     "static/media/rpsls-play.png": "/my-portfolio/static/media/rpsls-play.a83553f134357eec9240.png",
     "index.html": "/my-portfolio/index.html",
-    "main.a452b4b8.css.map": "/my-portfolio/static/css/main.a452b4b8.css.map",
-    "main.724a9a55.js.map": "/my-portfolio/static/js/main.724a9a55.js.map"
+    "main.812af4c3.css.map": "/my-portfolio/static/css/main.812af4c3.css.map",
+    "main.8cb1bf1b.js.map": "/my-portfolio/static/js/main.8cb1bf1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a452b4b8.css",
-    "static/js/main.724a9a55.js"
+    "static/css/main.812af4c3.css",
+    "static/js/main.8cb1bf1b.js"
   ]
 }
