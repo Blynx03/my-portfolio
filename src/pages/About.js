@@ -1,4 +1,3 @@
-import React from "react";
 import "./about.css";
 
 const About = () => {
@@ -32,15 +31,17 @@ const About = () => {
             to embark on a new adventure in the world of web development. Eager to
             embrace this exciting challenge, I dived headfirst into learning the
             intricacies of web technologies. I embarked on a journey of discovery,
-            diving into the realms of JavaScript and React, two powerful tools
-            that fuel the web's dynamic nature.
+            diving into JavaScript and React-two powerful tools
+            that drive modern, dynamic web applications.
           </p>
 
           <p className="about-paragraph">
-            As I tread further along this path, I've found immense joy in crafting
-            elegant and interactive web solutions. I'm captivated by the endless
-            possibilities these technologies offer and the creative freedom they
-            bestow upon developers.
+            As I tread further along this path, I've found immense joy in crafting 
+            elegant and interactive web solutions, with growing awareness of 
+            performance and user experience considerations. I'm familiar with 
+            optimization techniques such as code splitting, lazy loading, and 
+            memoization, and I plan to actively apply these practices in upcoming 
+            projects to improve efficiency, scalability, and overall usability.
           </p>
 
           <p className="about-paragraph">
@@ -50,13 +51,13 @@ const About = () => {
           </p>
 
           <p className="about-paragraph">
-            I'm a software developer proficient in HTML, CSS, JavaScript, and
-            React, with aspirations to become a full-stack developer. I am
-            currently enhancing my skills in TypeScript, jQuery, Redux and SASS,
-            and my journey includes mastering Node.js, Python, Express.js, SQL,
-            PHP, GraphQL, OAuth and possibly Django. I'm dedicated to composing
-            refined code while continually enhancing my skills to deliver
-            captivating web experiences
+            I'm a software developer proficient in HTML, CSS, JavaScript, React, and
+            TypeScript, with aspirations to become a full-stack developer. I have 
+            hands-on experience building structured, type-safe applications using 
+            modern React patterns, and I continue expanding my backend knowledge 
+            with Node.js, Express.js, SQL, GraphQL, OAuth, and Python. I'm committed 
+            to writing clean, maintainable code while continuously improving 
+            performance, scalability, and overall application quality.
           </p>
 
           <p className="about-paragraph">
