@@ -99,7 +99,7 @@ const Content = () => {
     };
     timeoutId.current = setTimeout(() => {
       changeGreeting();
-      intervalId2.current = setInterval(changeGreeting, 3950);
+      intervalId2.current = setInterval(changeGreeting, 4000);
     }, 2550);
 
     return () => {

@@ -25,6 +25,7 @@
   align-items: flex-end;
   padding: 5% 5% 0%;
   text-shadow: 2px 2px 3px gray;
+  animation: appear 2s ease;
 }
 
 .name,
@@ -125,6 +126,7 @@
 .material-symbols-outlined.info-icon {
   animation-play-state: paused;
   color: lime;
+  font-size: clamp(1.4rem, 3vw, 2.4rem);
 }
 
 .my-description {
