@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.681d14b6.css",
-    "main.js": "/my-portfolio/static/js/main.a895eed6.js",
+    "main.css": "/my-portfolio/static/css/main.de1a387a.css",
+    "main.js": "/my-portfolio/static/js/main.5dd674e4.js",
     "static/media/apple-carousel.png": "/my-portfolio/static/media/apple-carousel.0078f5f11b70db282272.png",
     "static/media/cp24-main.png": "/my-portfolio/static/media/cp24-main.59f6c72deac0477e4a32.png",
     "static/media/cp24-youtube.png": "/my-portfolio/static/media/cp24-youtube.f46b24823b8ffd5e17c6.png",
@@ -74,11 +74,11 @@
     "static/media/fpicker-spin-zone.png": "/my-portfolio/static/media/fpicker-spin-zone.622dda98ff8fb875208b.png",
     "static/media/rpsls-play.png": "/my-portfolio/static/media/rpsls-play.a83553f134357eec9240.png",
     "index.html": "/my-portfolio/index.html",
-    "main.681d14b6.css.map": "/my-portfolio/static/css/main.681d14b6.css.map",
-    "main.a895eed6.js.map": "/my-portfolio/static/js/main.a895eed6.js.map"
+    "main.de1a387a.css.map": "/my-portfolio/static/css/main.de1a387a.css.map",
+    "main.5dd674e4.js.map": "/my-portfolio/static/js/main.5dd674e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.681d14b6.css",
-    "static/js/main.a895eed6.js"
+    "static/css/main.de1a387a.css",
+    "static/js/main.5dd674e4.js"
   ]
 }
