@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.812af4c3.css",
-    "main.js": "/my-portfolio/static/js/main.8cb1bf1b.js",
+    "main.css": "/my-portfolio/static/css/main.681d14b6.css",
+    "main.js": "/my-portfolio/static/js/main.a895eed6.js",
     "static/media/apple-carousel.png": "/my-portfolio/static/media/apple-carousel.0078f5f11b70db282272.png",
     "static/media/cp24-main.png": "/my-portfolio/static/media/cp24-main.59f6c72deac0477e4a32.png",
     "static/media/cp24-youtube.png": "/my-portfolio/static/media/cp24-youtube.f46b24823b8ffd5e17c6.png",
@@ -31,19 +31,19 @@
     "static/media/worldbank-responsive.png": "/my-portfolio/static/media/worldbank-responsive.6661eb86705cd9383de3.png",
     "static/media/dm-title.png": "/my-portfolio/static/media/dm-title.97ae037416c369e85234.png",
     "static/media/nickel-search.png": "/my-portfolio/static/media/nickel-search.c4f61912982347186dca.png",
-    "static/media/bubblitz-main-page.png": "/my-portfolio/static/media/bubblitz-main-page.f586c1693d6687a1b3f5.png",
     "static/media/apple-responsive.png": "/my-portfolio/static/media/apple-responsive.2f1532296c5a27b0b302.png",
     "static/media/silya-payment.png": "/my-portfolio/static/media/silya-payment.45b8eacba8267f1c4b4f.png",
     "static/media/dm-players.png": "/my-portfolio/static/media/dm-players.9eeda2aca6f5206b23fd.png",
     "static/media/nickel-main.png": "/my-portfolio/static/media/nickel-main.9aa1249f53be3b15e057.png",
+    "static/media/CRC-resume2026.pdf": "/my-portfolio/static/media/CRC-resume2026.d07afc9eb09032bcfd1e.pdf",
     "static/media/cp24-local-weather.png": "/my-portfolio/static/media/cp24-local-weather.db8d0e0930bcdae4ca99.png",
     "static/media/nickel-log.png": "/my-portfolio/static/media/nickel-log.ba03fd2436ffd777e9ac.png",
     "static/media/bubblitz-how-to.png": "/my-portfolio/static/media/bubblitz-how-to.ab7e33d101a5929d46b7.png",
     "static/media/dm-winner.png": "/my-portfolio/static/media/dm-winner.ba079ae392949abde8b0.png",
     "static/media/battleship-board.png": "/my-portfolio/static/media/battleship-board.6223bdfb3e3d29645901.png",
     "static/media/silya-contact.png": "/my-portfolio/static/media/silya-contact.a149145a6139dc0778da.png",
-    "static/media/CRC-resume2026.pdf": "/my-portfolio/static/media/CRC-resume2026.04b424c7a022718edfa7.pdf",
     "static/media/rpsls-mainPage.png": "/my-portfolio/static/media/rpsls-mainPage.13e0b5d9690e28165c4a.png",
+    "static/media/bubblitz-main-page.png": "/my-portfolio/static/media/bubblitz-main-page.9efa693d8ac92b9896c7.png",
     "static/media/dm-boardrules.png": "/my-portfolio/static/media/dm-boardrules.cf23d22d6df3d43a52f6.png",
     "static/media/apple-links.png": "/my-portfolio/static/media/apple-links.b3c2a4abc61b8220fd31.png",
     "static/media/nickel-signup.png": "/my-portfolio/static/media/nickel-signup.ce127f153e39dfa422b7.png",
@@ -74,11 +74,11 @@
     "static/media/fpicker-spin-zone.png": "/my-portfolio/static/media/fpicker-spin-zone.622dda98ff8fb875208b.png",
     "static/media/rpsls-play.png": "/my-portfolio/static/media/rpsls-play.a83553f134357eec9240.png",
     "index.html": "/my-portfolio/index.html",
-    "main.812af4c3.css.map": "/my-portfolio/static/css/main.812af4c3.css.map",
-    "main.8cb1bf1b.js.map": "/my-portfolio/static/js/main.8cb1bf1b.js.map"
+    "main.681d14b6.css.map": "/my-portfolio/static/css/main.681d14b6.css.map",
+    "main.a895eed6.js.map": "/my-portfolio/static/js/main.a895eed6.js.map"
   },
   "entrypoints": [
-    "static/css/main.812af4c3.css",
-    "static/js/main.8cb1bf1b.js"
+    "static/css/main.681d14b6.css",
+    "static/js/main.a895eed6.js"
   ]
 }
