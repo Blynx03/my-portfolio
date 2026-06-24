@@ -263,6 +263,18 @@ const Content = () => {
           data-value="default"
         >
           <div className="projects">
+            Full-Stack Applications
+            <ul className="sub-container">
+              <li
+                className="bubblitz sub"
+                onClick={getMidContent}
+                data-value="bubblitz"
+              >
+                Bubblitz Pro
+              </li>
+            </ul>
+          </div>
+          <div className="projects">
             E-Commerce
             <ul className="sub-container">
               <li

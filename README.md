@@ -9,30 +9,80 @@ Here you can learn more about me, explore my projects, view my resume, and get i
 
 ## About Me
 
-I am a **Web Developer** with a passion for creating interactive and engaging web experiences.  
-I work primarily with **HTML, CSS, JavaScript, TypeScript and React**, and I am actively improving my skills in modern frontend tooling.
+I am a **Full-Stack Developer** passionate about building responsive, interactive, and user-focused web applications.
 
-My long-term goal is to become a **full-stack developer**, exploring backend technologies such as **Node.js, SQL, Python, and Ruby on Rails**, depending on industry needs.
+My strongest expertise is in **frontend development** using **React, TypeScript, JavaScript, HTML, and CSS**, while also building complete backend solutions with **Node.js, Express, Prisma ORM, and PostgreSQL**. I enjoy transforming ideas into production-ready applications through clean architecture, intuitive user experiences, and modern development practices.
 
 ---
 
 ## Technologies
 
-Most projects are built using:
+### 🎨 Frontend
 
-- HTML5  
-- CSS3  
-- JavaScript (ES6+)  
-- React  
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 - TypeScript
-- REST APIs  
-- Git & GitHub
+- React
+- Responsive Design
+- REST APIs
 - Bootstrap
-- Material UI  
+- Material UI
+
+### ⚙️ Backend
+
+- Node.js
+- Express.js
+- Prisma ORM
+- RESTful API Development
+- CORS Configuration
+- Environment Variables
+
+### 🗄️ Database
+
+- PostgreSQL
+- Neon Database
+
+### ☁️ Cloud & Deployment
+
+- Vercel
+- Render
+
+### 🛠️ Development Tools
+
+- Git
+- GitHub
+- VS Code
+- Chrome DevTools
+- Firefox DevTools
 
 ---
 
 # Projects
+
+## 🎮 Featured Project
+
+### Bubblitz — Full-Stack Browser Game
+
+![Bubblitz Screenshot](/src/images/bubblitz-main-page.png)
+
+A fast-paced full-stack browser game combining responsive gameplay with persistent online leaderboards.
+
+Features include:
+
+- Progressive level-based gameplay
+- Online Top 25 leaderboard
+- Score qualification system
+- RESTful API integration
+- PostgreSQL database with Prisma ORM
+- Cloud deployment using Vercel and Render
+- Responsive desktop and mobile experience
+
+- **Tech:** React, TypeScript, Node.js, Express.js, Prisma ORM, PostgreSQL, Neon, Vercel, Render
+- [Repository](https://github.com/Blynx03/bubblitz-fullstack)
+- [Live Site](https://bubblitz-pro.vercel.app/)
+
+---
 
 ## 🛒 E-Commerce
 
@@ -40,11 +90,10 @@ Most projects are built using:
 
 ![Silya Screenshot](/src/images/silya-home.png)
 
-A full front-end e-commerce website focused on selling chairs.  
-Includes a landing page, product listings, authentication UI, contact form, and checkout flow.
+A fully responsive front-end e-commerce website focused on selling chairs. Features include product browsing, shopping cart functionality, checkout flow, authentication UI, and responsive layouts.
 
-- **Tech:** HTML, CSS, JavaScript, React  
-- [Repository](https://github.com/Blynx03/silya)  
+- **Tech:** HTML, CSS, JavaScript, React
+- [Repository](https://github.com/Blynx03/silya)
 - [Live Site](https://blynx03.github.io/silya/)
 
 ---
@@ -55,25 +104,11 @@ Includes a landing page, product listings, authentication UI, contact form, and 
 
 ![MasterMind Screenshot](/src/images/mm-mainpage.png)
 
-A logic-based code-breaking game with multiple difficulty levels.  
-Designed to be mobile-responsive in both portrait and landscape modes.
+A logic-based code-breaking game featuring multiple difficulty levels, responsive layouts, timers, animations, and progressively challenging gameplay.
 
-- **Tech:** HTML, CSS, JavaScript  
-- [Repository](https://github.com/Blynx03/mastermind-v3)  
+- **Tech:** HTML, CSS, JavaScript
+- [Repository](https://github.com/Blynx03/mastermind-v3)
 - [Live Site](https://blynx03.github.io/mastermind-v3/)
-
----
-
-### Bubblitz
-
-![Bubblitz Screenshot](/src/images/bubblitz-main-page.png)
-
-A fast-paced reflex and focus game that challenges players through number recognition and timing.
-
-- **Tech:** React, TypeScript, JavaScript, CSS  
-- [Repository](https://github.com/Blynx03/bubblitz)
-- [Live Site](https://blynx03.github.io/bubblitz/)
-
 
 ---
 
@@ -81,9 +116,9 @@ A fast-paced reflex and focus game that challenges players through number recogn
 
 ![Battleship Screenshot](/src/images/battleship-mainpage.png)
 
-A digital recreation of the classic Battleship game, focusing on turn-based logic and UI state management.
+A modern recreation of the classic Battleship game emphasizing scalable React architecture, state management, and responsive gameplay.
 
-- **Tech:** React, JavaScript, CSS  
+- **Tech:** React, TypeScript, JavaScript, CSS
 - [Repository](https://github.com/Blynx03/battleship)
 - [Live Site](https://blynx03.github.io/battleship/)
 
@@ -93,12 +128,11 @@ A digital recreation of the classic Battleship game, focusing on turn-based logi
 
 ![RPSLS Screenshot](/src/images/rpsls-mainPage.png)
 
-An expanded version of Rock-Paper-Scissors implementing additional game logic with Lizard and Spock.
+An expanded implementation of the classic game featuring additional gameplay logic, animations, and responsive interactions.
 
-- **Tech:** React, JavaScript, CSS  
+- **Tech:** React, JavaScript, CSS
 - [Repository](https://github.com/Blynx03/rock-paper-scissors-lizard-spock)
 - [Live Site](https://blynx03.github.io/rock-paper-scissors-lizard-spock/)
-
 
 ---
 
@@ -108,11 +142,10 @@ An expanded version of Rock-Paper-Scissors implementing additional game logic wi
 
 ![Apple Screenshot](/src/images/apple-main.png)
 
-A responsive clone of Apple’s homepage created to demonstrate layout precision and UI replication.  
-All links point to their real Apple counterparts.
+A responsive recreation of Apple's homepage built to practice layout precision, responsive design, and UI replication.
 
-- **Tech:** HTML, CSS, JavaScript  
-- [Repository](https://github.com/Blynx03/apple-clone)  
+- **Tech:** HTML, CSS, JavaScript
+- [Repository](https://github.com/Blynx03/apple-clone)
 - [Live Site](https://blynx03.github.io/apple-clone/)
 
 ---
@@ -121,10 +154,10 @@ All links point to their real Apple counterparts.
 
 ![World Bank Screenshot](/src/images/worldbank-main.png)
 
-A static layout clone of the World Bank homepage, focused on responsive structure and visual accuracy.
+A responsive clone of the World Bank homepage focused on layout accuracy and visual consistency.
 
-- **Tech:** HTML, CSS  
-- [Repository](https://github.com/Blynx03/worldbank-clone)  
+- **Tech:** HTML, CSS
+- [Repository](https://github.com/Blynx03/worldbank-clone)
 - [Live Site](https://blynx03.github.io/worldbank-clone/)
 
 ---
@@ -135,10 +168,10 @@ A static layout clone of the World Bank homepage, focused on responsive structur
 
 ![CP24 Screenshot](/src/images/cp24-main.png)
 
-A React-based dashboard inspired by the CP24 news format, designed for desktop viewing and structured data presentation.
+A React dashboard inspired by the CP24 news format that integrates multiple REST APIs into a responsive desktop interface.
 
-- **Tech:** React, JavaScript, CSS  
-- [Repository](https://github.com/Blynx03/react-cp24)  
+- **Tech:** React, JavaScript, CSS, REST APIs
+- [Repository](https://github.com/Blynx03/react-cp24)
 - [Live Site](https://blynx03.github.io/react-cp24/)
 
 ---
@@ -147,11 +180,10 @@ A React-based dashboard inspired by the CP24 news format, designed for desktop v
 
 ![NBA API Screenshot](/src/images/nba-main.png)
 
-A REST API demo that retrieves basketball teams and player information.  
-The API is currently deprecated but remains as a demo project.
+A REST API demonstration project retrieving NBA teams and player information from an external API.
 
-- **Tech:** JavaScript, REST APIs  
-- [Repository](https://github.com/Blynx03/api-demo)  
+- **Tech:** JavaScript, REST APIs
+- [Repository](https://github.com/Blynx03/api-demo)
 - [Live Site](https://blynx03.github.io/api-demo/)
 
 ---
@@ -162,9 +194,9 @@ The API is currently deprecated but remains as a demo project.
 
 ![Dart Scorer Screenshot](/src/images/dm-main.png)
 
-A digital dart scoreboard designed to replace chalkboards or markers during live dart matches.
+A digital scoring application designed to replace traditional dart scoreboards during live matches.
 
-- **Tech:** React, JavaScript, CSS  
+- **Tech:** React, JavaScript, CSS
 - [Repository](https://github.com/Blynx03/dart-master-scorer)
 - [Live Site](https://blynx03.github.io/dart-master-scorer/)
 
@@ -174,9 +206,9 @@ A digital dart scoreboard designed to replace chalkboards or markers during live
 
 ![Food Picker Screenshot](/src/images/fpicker-main.png)
 
-A mobile-first decision-making app that spins a wheel to randomly select food choices.
+A mobile-first decision-making application that randomly selects food choices using an animated spinning wheel.
 
-- **Tech:** React, JavaScript, CSS  
+- **Tech:** React, JavaScript, CSS
 - [Repository](https://github.com/Blynx03/food-picker)
 - [Live Site](https://blynx03.github.io/food-picker/)
 
@@ -186,28 +218,28 @@ A mobile-first decision-making app that spins a wheel to randomly select food ch
 
 ![Nickel App Screenshot](/src/images/nickel-main.png)
 
-An interactive app designed to help people with nickel allergies track daily nickel intake using a point-based system.
+An interactive application that helps users monitor daily nickel intake using a point-based tracking system.
 
-- **Tech:** React, JavaScript, CSS  
-- [Repository](https://github.com/Blynx03/nickel-react)  
+- **Tech:** React, JavaScript, CSS
+- [Repository](https://github.com/Blynx03/nickel-react)
 - [Live Site](https://blynx03.github.io/nickel-react/)
 
 ---
 
-## Resume & Certificates
+## 📄 Resume & Certificates
 
-- 📄 [Resume](/src/images/CRC-resume2026.pdf)  
+- 📄 [Resume](/src/images/CRC-resume2026.pdf)
 - 🎓 [Web Development Certificate](/src/images/WebCertificate.pdf)
 
 ---
 
-## Contact Me
+## 📬 Contact
 
-Have a project idea or just want to say hi?
+Have a project idea or just want to connect?
 
-👉 **Live Portfolio:**  
+👉 **Live Portfolio**  
 https://blynx03.github.io/my-portfolio/
 
 ---
 
-This portfolio is proudly built using **HTML, CSS, JavaScript, TypeScript and React** 🚀
+Built with **React, TypeScript, HTML, CSS, and JavaScript**, showcasing projects spanning **frontend development, full-stack applications, REST APIs, cloud deployment, database design, and modern web technologies.** 🚀

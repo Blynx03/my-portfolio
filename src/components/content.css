@@ -190,7 +190,7 @@
   }
 
   .my-projects {
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-size: clamp(1.4rem, 2.6vw, 2rem);
     color: dodgerblue;
   }
 
@@ -255,7 +255,7 @@
 
   .menu-icon {
     cursor: pointer;
-    font-size: clamp(1rem, 3vw, 2.5rem);
+    font-size: clamp(3rem, 5vw, 4rem);
   }
 
   .menu-container {

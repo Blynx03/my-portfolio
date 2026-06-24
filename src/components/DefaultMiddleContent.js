@@ -7,6 +7,7 @@ import generateRGB from "./generateRGB";
 const DefaultMiddleContent = () => {
   const clientContext = useContext(userContext);
   const [ greetingColor, setGreetingColor ] = useState();
+  const [ showMoreInfo, setShowMoreInfo ] = useState(false);
   const greeting = clientContext.greeting;
 
   useEffect(() => {
@@ -15,6 +16,9 @@ const DefaultMiddleContent = () => {
     setGreetingColor(`rgba(${colorR}, ${colorG}, ${colorB}, 0.6)`);
   },[greeting])
 
+  function handleClick() {
+    setShowMoreInfo(prev => !prev);
+  }
 
   return (
     <div className="name-section-container">
@@ -37,9 +41,13 @@ const DefaultMiddleContent = () => {
         <span className="shadow-i">I</span>
         <span className="shadow-e">E</span>
       </div>
-      <div className="my-description">
-        A Front-End (JavaScript/React) Web Developer. I shape the online web
-        with lines of code.
+      <div className="my-description-container">
+        <span className={`material-symbols-outlined help-icon ${showMoreInfo ? "info-icon" : ""}`} onClick={handleClick}>
+          {showMoreInfo ? 'info' : 'help'}
+        </span>
+        <div className="my-description">
+          {showMoreInfo ? `Full-Stack Developer focused on creating engaging user experiences while building scalable backend services using React, TypeScript, Node.js, Express, PostgreSQL, and Prisma ORM.` : `Full-Stack Developer building responsive, interactive web applications with React, TypeScript, and Node.js.`}
+        </div>
       </div>
     </div>
   );
