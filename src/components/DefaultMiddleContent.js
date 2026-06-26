@@ -46,7 +46,7 @@ const DefaultMiddleContent = () => {
           {showMoreInfo ? 'info' : 'help'}
         </span>
         <div className="my-description">
-          {showMoreInfo ? `Full-Stack Developer focused on creating engaging user experiences while building scalable backend services using React, TypeScript, Node.js, Express, PostgreSQL, and Prisma ORM.` : `Full-Stack Developer building responsive, interactive web applications with React, TypeScript, and Node.js.`}
+          {showMoreInfo ? `Full-Stack Software Developer focused on creating engaging user experiences while building modern backend services using React, TypeScript, Node.js, Express, PostgreSQL, and Prisma ORM.` : `Full-Stack Software Developer building responsive, interactive web applications with React, TypeScript, and Node.js.`}
         </div>
       </div>
     </div>
