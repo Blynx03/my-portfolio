@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.de1a387a.css",
+    "main.css": "/my-portfolio/static/css/main.9cc641ec.css",
     "main.js": "/my-portfolio/static/js/main.93f22a20.js",
     "static/media/apple-carousel.png": "/my-portfolio/static/media/apple-carousel.0078f5f11b70db282272.png",
     "static/media/cp24-main.png": "/my-portfolio/static/media/cp24-main.59f6c72deac0477e4a32.png",
@@ -74,11 +74,11 @@
     "static/media/fpicker-spin-zone.png": "/my-portfolio/static/media/fpicker-spin-zone.622dda98ff8fb875208b.png",
     "static/media/rpsls-play.png": "/my-portfolio/static/media/rpsls-play.a83553f134357eec9240.png",
     "index.html": "/my-portfolio/index.html",
-    "main.de1a387a.css.map": "/my-portfolio/static/css/main.de1a387a.css.map",
+    "main.9cc641ec.css.map": "/my-portfolio/static/css/main.9cc641ec.css.map",
     "main.93f22a20.js.map": "/my-portfolio/static/js/main.93f22a20.js.map"
   },
   "entrypoints": [
-    "static/css/main.de1a387a.css",
+    "static/css/main.9cc641ec.css",
     "static/js/main.93f22a20.js"
   ]
 }
