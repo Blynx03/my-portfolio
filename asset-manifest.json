@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.9cc641ec.css",
-    "main.js": "/my-portfolio/static/js/main.b5c5e644.js",
+    "main.js": "/my-portfolio/static/js/main.ac506578.js",
     "static/media/apple-carousel.png": "/my-portfolio/static/media/apple-carousel.0078f5f11b70db282272.png",
     "static/media/cp24-main.png": "/my-portfolio/static/media/cp24-main.59f6c72deac0477e4a32.png",
     "static/media/cp24-youtube.png": "/my-portfolio/static/media/cp24-youtube.f46b24823b8ffd5e17c6.png",
@@ -30,26 +30,38 @@
     "static/media/mm-title.png": "/my-portfolio/static/media/mm-title.58d83f51d6146b7ed098.png",
     "static/media/worldbank-responsive.png": "/my-portfolio/static/media/worldbank-responsive.6661eb86705cd9383de3.png",
     "static/media/dm-title.png": "/my-portfolio/static/media/dm-title.97ae037416c369e85234.png",
+    "static/media/bsm-leaderboard.png": "/my-portfolio/static/media/bsm-leaderboard.530da4dda233a8ca6134.png",
     "static/media/nickel-search.png": "/my-portfolio/static/media/nickel-search.c4f61912982347186dca.png",
     "static/media/apple-responsive.png": "/my-portfolio/static/media/apple-responsive.2f1532296c5a27b0b302.png",
+    "static/media/bsm-title.png": "/my-portfolio/static/media/bsm-title.91e686450538d080c803.png",
     "static/media/silya-payment.png": "/my-portfolio/static/media/silya-payment.45b8eacba8267f1c4b4f.png",
     "static/media/dm-players.png": "/my-portfolio/static/media/dm-players.9eeda2aca6f5206b23fd.png",
     "static/media/nickel-main.png": "/my-portfolio/static/media/nickel-main.9aa1249f53be3b15e057.png",
     "static/media/CRC-resume2026.pdf": "/my-portfolio/static/media/CRC-resume2026.b1880bcc9b9bc5f4f0e7.pdf",
+    "static/media/bsm-deletescore.png": "/my-portfolio/static/media/bsm-deletescore.7635a6f61d3829465309.png",
+    "static/media/bsm-deleteadmin.png": "/my-portfolio/static/media/bsm-deleteadmin.9aff2c671e0bcee7ab3d.png",
     "static/media/cp24-local-weather.png": "/my-portfolio/static/media/cp24-local-weather.db8d0e0930bcdae4ca99.png",
     "static/media/nickel-log.png": "/my-portfolio/static/media/nickel-log.ba03fd2436ffd777e9ac.png",
     "static/media/bubblitz-how-to.png": "/my-portfolio/static/media/bubblitz-how-to.ab7e33d101a5929d46b7.png",
     "static/media/dm-winner.png": "/my-portfolio/static/media/dm-winner.ba079ae392949abde8b0.png",
     "static/media/battleship-board.png": "/my-portfolio/static/media/battleship-board.6223bdfb3e3d29645901.png",
     "static/media/silya-contact.png": "/my-portfolio/static/media/silya-contact.a149145a6139dc0778da.png",
+    "static/media/bsm-adminpage.png": "/my-portfolio/static/media/bsm-adminpage.6362556e5bedcec39b34.png",
+    "static/media/bsm-addadmin.png": "/my-portfolio/static/media/bsm-addadmin.23dab21c1f0ea7a72e0a.png",
+    "static/media/bsm-addscore.png": "/my-portfolio/static/media/bsm-addscore.79db9fb108c341c530cd.png",
     "static/media/rpsls-mainPage.png": "/my-portfolio/static/media/rpsls-mainPage.13e0b5d9690e28165c4a.png",
     "static/media/bubblitz-main-page.png": "/my-portfolio/static/media/bubblitz-main-page.9efa693d8ac92b9896c7.png",
     "static/media/dm-boardrules.png": "/my-portfolio/static/media/dm-boardrules.cf23d22d6df3d43a52f6.png",
     "static/media/apple-links.png": "/my-portfolio/static/media/apple-links.b3c2a4abc61b8220fd31.png",
+    "static/media/bsm-mainpage.png": "/my-portfolio/static/media/bsm-mainpage.e531a65dc469498b5e02.png",
     "static/media/nickel-signup.png": "/my-portfolio/static/media/nickel-signup.ce127f153e39dfa422b7.png",
     "static/media/dm-howTo.png": "/my-portfolio/static/media/dm-howTo.d4087a874f2bb5126d93.png",
+    "static/media/bsm-loginsuccessful.png": "/my-portfolio/static/media/bsm-loginsuccessful.6e754bb55908b95e47a4.png",
+    "static/media/bsm-loginunknown.png": "/my-portfolio/static/media/bsm-loginunknown.4159a35595911f07972a.png",
     "static/media/fpicker-main.png": "/my-portfolio/static/media/fpicker-main.85321cf538500ecec081.png",
+    "static/media/bsm-login.png": "/my-portfolio/static/media/bsm-login.adaa6683972ef136bc73.png",
     "static/media/nickel-login.png": "/my-portfolio/static/media/nickel-login.b5d1e7aa2edc413936c7.png",
+    "static/media/bsm-loginnight.png": "/my-portfolio/static/media/bsm-loginnight.61519b5e966a08dc5ab7.png",
     "static/media/dm-scoreboard.png": "/my-portfolio/static/media/dm-scoreboard.cfa0ce3fadd7e2fba823.png",
     "static/media/worldbank-footer.png": "/my-portfolio/static/media/worldbank-footer.7674e9a18d24b5d17239.png",
     "static/media/worldbank-news-events.png": "/my-portfolio/static/media/worldbank-news-events.be06d22fac5187f7b53b.png",
@@ -75,10 +87,10 @@
     "static/media/rpsls-play.png": "/my-portfolio/static/media/rpsls-play.a83553f134357eec9240.png",
     "index.html": "/my-portfolio/index.html",
     "main.9cc641ec.css.map": "/my-portfolio/static/css/main.9cc641ec.css.map",
-    "main.b5c5e644.js.map": "/my-portfolio/static/js/main.b5c5e644.js.map"
+    "main.ac506578.js.map": "/my-portfolio/static/js/main.ac506578.js.map"
   },
   "entrypoints": [
     "static/css/main.9cc641ec.css",
-    "static/js/main.b5c5e644.js"
+    "static/js/main.ac506578.js"
   ]
 }
