@@ -19,6 +19,7 @@ import userContext from "./userContext";
 import generateRGB from "./generateRGB";
 import Rpsls from "../pages/Rpsls";
 import FoodPicker from "../pages/FoodPicker";
+import BubblitzScoreManager from "../pages/BubblitzScoreManager";
 
 const Content = () => {
   const clientContext = useContext(userContext);
@@ -128,6 +129,8 @@ const Content = () => {
         return <MasterMindGame value={value} />;
       case "bubblitz":
         return <Bubblitz value={value} />;
+      case "bubblitz-score-manager":
+        return <BubblitzScoreManager value={value} />
       case "battleship":
         return <BattleShip value={value} />;
       case "rpsls":
@@ -263,8 +266,15 @@ const Content = () => {
           data-value="default"
         >
           <div className="projects">
-            Full-Stack Applications
+            Full-Stack Projects
             <ul className="sub-container">
+              <li
+                className="bubblitz sub"
+                onClick={getMidContent}
+                data-value="bubblitz-score-manager"
+              >
+                Bubblitz - Score Manager
+              </li>
               <li
                 className="bubblitz sub"
                 onClick={getMidContent}
@@ -272,6 +282,7 @@ const Content = () => {
               >
                 Bubblitz Pro
               </li>
+           
             </ul>
           </div>
           <div className="projects">
