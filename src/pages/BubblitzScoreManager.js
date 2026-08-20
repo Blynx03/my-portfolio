@@ -51,7 +51,7 @@ const BubblitzScoreManager = ({ value }) => {
             <div className='bubblitz-section-header'>🏆 Leaderboard System</div>
             <hr/>
             <p className='bubblitz-section-description'>Bubblitz Score Manager provides access to the persistent leaderboard data used by Bubblitz.</p>
-            <h3>Features</h3>
+            <h5>Features</h5>
             <ul className='bubblitz-list-container'>
                 <li>Persistent score storage</li>
                 <li>Player ranking display</li>
@@ -69,7 +69,7 @@ const BubblitzScoreManager = ({ value }) => {
             <div className='bubblitz-section-header'>🔐 Administrator Authentication</div>
             <hr/>
             <p className='bubblitz-section-description'>The application includes a dedicated administrator authentication workflow.</p>
-            <h3>Features</h3>
+            <h5>Features</h5>
             <ul className='bubblitz-list-container'>
                 <li>Administrator login</li>
                 <li>JWT-based authentication</li>
@@ -84,7 +84,7 @@ const BubblitzScoreManager = ({ value }) => {
         <div className='bubblitz-section-container'>
             <div className='bubblitz-section-header'>⚙️ Administration & Score Management</div>
             <hr/>
-            <h3>Administrator Management</h3>
+            <h5>Administrator Management</h5>
             <p className='bubblitz-section-description'>Authenticated administrators can:</p>
             <ul className='bubblitz-list-container'>
                 <li>Add administrator accounts</li>
@@ -93,7 +93,7 @@ const BubblitzScoreManager = ({ value }) => {
                 <li>Protect designated administrator accounts from deletion</li>
                 <li>Receive success and error feedback</li>
             </ul>
-            <h3>Score Management</h3>
+            <h5>Score Management</h5>
             <p className='bubblitz-section-description'>Authenticated administrators can:</p>
             <ul className='bubblitz-list-container'>
                 <li>Add score records</li>
@@ -109,7 +109,7 @@ const BubblitzScoreManager = ({ value }) => {
         <div className='bubblitz-section-container'>
             <div className='bubblitz-section-header'>⚙️ Full-Stack Architecture</div>
             <hr/>
-            <h3>Frontendt</h3>
+            <h5>Frontendt</h5>
             <p className='bubblitz-section-description'>Responsibilities:</p>
             <ul className='bubblitz-list-container'>
                 <li>Guest adn Administrator Interfaces</li>
@@ -122,7 +122,7 @@ const BubblitzScoreManager = ({ value }) => {
                 <li>Theme Management</li>
                 <li>Responsive Layout</li>
             </ul>
-            <h3>Backend</h3>
+            <h5>Backend</h5>
             <p className='bubblitz-section-description'>Responsibilities:</p>
             <ul className='bubblitz-list-container'>
                 <li>REST API Endpoints</li>
@@ -134,7 +134,7 @@ const BubblitzScoreManager = ({ value }) => {
                 <li>Error Handling</li>
                 <li>Environment Configuration</li>
             </ul>
-            <h3>Database</h3>
+            <h5>Database</h5>
             <p className='bubblitz-section-description'>Responsibilities:</p>
             <ul className='bubblitz-list-container'>
                 <li>Player Information Storage</li>
@@ -148,7 +148,7 @@ const BubblitzScoreManager = ({ value }) => {
         <div className='bubblitz-section-container'>
             <div className='bubblitz-section-header'>🛠️ Tech Stack</div>
             <hr/>
-            <h3>Frontendt</h3>
+            <h5>Frontend</h5>
             <ul className='bubblitz-list-container'>
                 <li>React</li>
                 <li>TypeScript</li>
@@ -157,25 +157,25 @@ const BubblitzScoreManager = ({ value }) => {
                 <li>HTML5</li>
                 <li>CSS3</li>
             </ul>
-            <h3>Backend</h3>
+            <h5>Backend</h5>
             <ul className='bubblitz-list-container'>
                 <li>Node.js</li>
                 <li>Express.js</li>
                 <li>REST API Architecture</li>
                 <li>JSON Web Tokens (JWT)</li>
             </ul>
-            <h3>Database</h3>
+            <h5>Database</h5>
             <ul className='bubblitz-list-container'>
                 <li>PostgreSQL</li>
                 <li>Neon Cloud Database</li>
                 <li>Prisma ORM</li>
             </ul>
-            <h3>Cloud & Deployment</h3>
+            <h5>Cloud & Deployment</h5>
             <ul className='bubblitz-list-container'>
                 <li>Vercel</li>
                 <li>Render</li>
             </ul>
-            <h3>Development Tools</h3>
+            <h5>Development Tools</h5>
             <ul className='bubblitz-list-container'>
                 <li>Git</li>
                 <li>GitHub</li>
@@ -188,7 +188,7 @@ const BubblitzScoreManager = ({ value }) => {
        <div className='bubblitz-section-container'>
             <div className='bubblitz-section-header'>🛠️🚀 Engineering Highlights</div>
             <hr/>
-            <h3>Frontend Engineering</h3>
+            <h5>Frontend Engineering</h5>
             <ul className='bubblitz-list-container'>
                 <li>React Context API</li>
                 <li>Controlled Form Inputs</li>
@@ -198,7 +198,7 @@ const BubblitzScoreManager = ({ value }) => {
                 <li>Theme Management</li>
                 <li>Dynamic Success & Error States</li>
             </ul>
-            <h3>Backend Engineering</h3>
+            <h5>Backend Engineering</h5>
             <ul className='bubblitz-list-container'>
                 <li>RESTful API Development</li>
                 <li>JWT Authentication & Authorization</li>
@@ -208,7 +208,7 @@ const BubblitzScoreManager = ({ value }) => {
                 <li>Server-Side Validation</li>
                 <li>Error Handling</li>
             </ul>
-            <h3>Database Engineering</h3>
+            <h5>Database Engineering</h5>
             <ul className='bubblitz-list-container'>
                 <li>Prisma ORM</li>
                 <li>PostgreSQL Schema Integration</li>
@@ -217,7 +217,7 @@ const BubblitzScoreManager = ({ value }) => {
                 <li>Persistent Data Storage</li>
                 <li>Ordered Leaderboard Queries</li>
             </ul>
-            <h3>Cloud Engineering</h3>
+            <h5>Cloud Engineering</h5>
             <ul className='bubblitz-list-container'>
                 <li>Vercel Frontend Deployment</li>
                 <li>Render Backend Deployment</li>

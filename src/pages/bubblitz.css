@@ -103,8 +103,12 @@ em {
     font-weight: bold;
 }
 
+h5 {
+    margin-left: 5%;
+}
 .bubblitz-page-images-container > img {
     width: 100%;
     margin: 6px 0 50px;
     box-shadow: 0 0 14px 4px #fff;
 }
+
