@@ -83,6 +83,20 @@
     gap: 4px;
 }
 
+.bubblitz-sm-container > p {
+    width: 110%;
+}
+
+.bubblitz-sm-container > li {
+    margin-top: 10px;
+    margin-left: -7%;
+    font-size: 1.4rem;
+}
+
+.bubblitz-sm-container > img {
+    margin-bottom: 5%;
+}
+
 .bubblitz-list-container > li {
     margin-bottom: 10px;
 }
@@ -103,8 +117,8 @@ em {
     font-weight: bold;
 }
 
-h5 {
-    margin-left: 5%;
+h4 {
+    margin-left: 2%;
 }
 
 .bubblitz-page-images-container > img {

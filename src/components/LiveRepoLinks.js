@@ -7,6 +7,14 @@ const LiveRepoLinks = ({ value }) => {
     let repoUrl = "";
     let demoUrl = "";
     switch (value) {
+      case "bubblitz-score-manager":
+        repoUrl = "https://github.com/Blynx03/Bubblitz-Score-Manager";
+        demoUrl = "https://bubblitz-score-manager.vercel.app/";
+        break;
+      case "bubblitz":
+        repoUrl = "https://github.com/Blynx03/bubblitz-fullstack";
+        demoUrl = "https://bubblitz-pro.vercel.app/";
+        break;
       case "silya":
         repoUrl = "https://github.com/Blynx03/silya";
         demoUrl = "https://blynx03.github.io/silya/";
@@ -23,10 +31,7 @@ const LiveRepoLinks = ({ value }) => {
         repoUrl = "https://github.com/Blynx03/mastermind-v3";
         demoUrl = "https://blynx03.github.io/mastermind-v3/";
         break;
-      case "bubblitz":
-        repoUrl = "https://github.com/Blynx03/bubblitz-fullstack";
-        demoUrl = "https://bubblitz-pro.vercel.app/";
-        break;
+
       case "battleship":
         repoUrl = "https://github.com/Blynx03/battleship";
         demoUrl = "https://blynx03.github.io/battleship/";
