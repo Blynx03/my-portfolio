@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.476c4098.css",
-    "main.js": "/my-portfolio/static/js/main.bfc06246.js",
+    "main.js": "/my-portfolio/static/js/main.60f253b9.js",
     "static/media/apple-carousel.png": "/my-portfolio/static/media/apple-carousel.0078f5f11b70db282272.png",
     "static/media/cp24-main.png": "/my-portfolio/static/media/cp24-main.59f6c72deac0477e4a32.png",
     "static/media/cp24-youtube.png": "/my-portfolio/static/media/cp24-youtube.f46b24823b8ffd5e17c6.png",
@@ -37,7 +37,6 @@
     "static/media/silya-payment.png": "/my-portfolio/static/media/silya-payment.45b8eacba8267f1c4b4f.png",
     "static/media/dm-players.png": "/my-portfolio/static/media/dm-players.9eeda2aca6f5206b23fd.png",
     "static/media/nickel-main.png": "/my-portfolio/static/media/nickel-main.9aa1249f53be3b15e057.png",
-    "static/media/CRC-resume2026.pdf": "/my-portfolio/static/media/CRC-resume2026.b1880bcc9b9bc5f4f0e7.pdf",
     "static/media/bsm-deletescore.png": "/my-portfolio/static/media/bsm-deletescore.7635a6f61d3829465309.png",
     "static/media/bsm-deleteadmin.png": "/my-portfolio/static/media/bsm-deleteadmin.9aff2c671e0bcee7ab3d.png",
     "static/media/cp24-local-weather.png": "/my-portfolio/static/media/cp24-local-weather.db8d0e0930bcdae4ca99.png",
@@ -51,6 +50,7 @@
     "static/media/bsm-addscore.png": "/my-portfolio/static/media/bsm-addscore.79db9fb108c341c530cd.png",
     "static/media/rpsls-mainPage.png": "/my-portfolio/static/media/rpsls-mainPage.13e0b5d9690e28165c4a.png",
     "static/media/bubblitz-main-page.png": "/my-portfolio/static/media/bubblitz-main-page.9efa693d8ac92b9896c7.png",
+    "static/media/CRC-resume2026.pdf": "/my-portfolio/static/media/CRC-resume2026.b160ef1a563e8699939f.pdf",
     "static/media/dm-boardrules.png": "/my-portfolio/static/media/dm-boardrules.cf23d22d6df3d43a52f6.png",
     "static/media/apple-links.png": "/my-portfolio/static/media/apple-links.b3c2a4abc61b8220fd31.png",
     "static/media/bsm-mainpage.png": "/my-portfolio/static/media/bsm-mainpage.e531a65dc469498b5e02.png",
@@ -87,10 +87,10 @@
     "static/media/rpsls-play.png": "/my-portfolio/static/media/rpsls-play.a83553f134357eec9240.png",
     "index.html": "/my-portfolio/index.html",
     "main.476c4098.css.map": "/my-portfolio/static/css/main.476c4098.css.map",
-    "main.bfc06246.js.map": "/my-portfolio/static/js/main.bfc06246.js.map"
+    "main.60f253b9.js.map": "/my-portfolio/static/js/main.60f253b9.js.map"
   },
   "entrypoints": [
     "static/css/main.476c4098.css",
-    "static/js/main.bfc06246.js"
+    "static/js/main.60f253b9.js"
   ]
 }
